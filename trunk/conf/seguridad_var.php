@@ -19,7 +19,7 @@
 	$aModule[$cModule]->oMenu = new Menu( 'body_main' );
 	$aModule[$cModule]->bPermisosDB = true;
 	//$aModule[$cModule]->oDatabase = openDB( DB_MYSQL, 'localhost', 'librosar', 'cal', 'isbn1982');
-	$aModule[$cModule]->oDatabase = openDB( DB_MYSQL, 'localhost', 'git', 'root', '');
+	$aModule[$cModule]->oDatabase = openDB( DB_MYSQL, 'localhost', 'git', 'root', 'c4r4m3l0');
 	$aModule[$cModule]->oDatabase->connect();
 	$aModule[$cModule]->addStyleSheet( "bue.css" );
 	$aModule[$cModule]->setTemplateHead( $oModBase->getTemplateHead() );

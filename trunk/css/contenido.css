@@ -6,11 +6,9 @@ gris nuevo negro:	1b1819
 /*************************** Estilo del Contenido*********************/
 	html
 	{
-		height: 100%;
 	}
 	body
 	{
-		height: 100%;
 		margin: 10px 0;
 		font-family: Georgia, "Times New Roman", Times, serif;
 		text-decoration: none;
