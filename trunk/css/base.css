@@ -1,3 +1,8 @@
+/*
+Paleta de colores
+gris nuevo negro:	1b1819
+
+*/
 /************************Estilos de la  Biblioteca de Mensajes *********************/
 div.mensaje_error
   {
@@ -40,14 +45,6 @@ div.mensaje_aviso
 			background-color: #ffffff;
 		}
 	}
-	#container
-	{
-		position: relative;
-		overflow: auto;
-		margin: auto;
-		width: 960px;
-		background: url(../imagenes/fondo_prensa.gif) repeat-y;
-	}
 	#subcontainer
 	{
 		float: left;
@@ -58,8 +55,7 @@ div.mensaje_aviso
 	#barra_entorno
 	{
 		float: left;
-		width: 172px;
-		padding: 20px 10px 20px 20px;
+		width: 202px;
 	}
 	#head a
 	{
@@ -110,10 +106,6 @@ div.mensaje_aviso
 	}
 	#foot
 	{
-	}
-	#foot a
-	{
-	}
-	#foot a:hover
-	{
+		margin-top: 300px;
+		overflow: auto;
 	}

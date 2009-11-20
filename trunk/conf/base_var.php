@@ -2,7 +2,7 @@
 	// Define las Constantes de Directorios
 	define ( 'MODO_AJAX', MODO_AJAX_HABILITADO);
 	define( 'PATH_FILES' , PATH_ROOT . '/files' );
-	define( 'URL_FILES' , URL_ROOT . 'files/' );	
+	define( 'URL_FILES' , URL_ROOT . 'files/' );
 	define( 'LOG_FILE' , PATH_ROOT . 'log/log.txt' );
 	define( 'PATH_TMP' , PATH_FILES . 'tmp' );
 	define( 'PATH_BANCO_IMAGENES' , PATH_ROOT . 'files/banco_imagenes' );

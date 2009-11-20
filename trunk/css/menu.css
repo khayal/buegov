@@ -1,15 +1,16 @@
+/*
+Paleta de colores
+gris nuevo negro:	1b1819
 
-	/*	IDIOMAS	*/
-	.menu_idiomas{margin:30px 0 0 0; padding:0; height:30px; width:100%; display:block;}
-	.menu_idiomas li{padding:2px 4px; margin:0 0 0 4px; list-style:none; display:inline; font: 11px TimesNewRoman}
-	.menu_idiomas li:hover{color:#ffffff; background:#000000}
-	
+*/
+
 	/*	ENTORNOS	*/
 	.menu_entornos{margin:0 auto; padding:0; height:30px; width:100%; display:block; background:url('../imagenes/menu_entornos.png') repeat-x;}
 	.menu_entornos li{padding:0; margin:0; list-style:none; display:inline;}
-	.menu_entornos li a{float:left; padding-left:15px; display:block; color:rgb(0,0,0); text-decoration:none; font:11px TimesNewRoman; text-transform: uppercase; cursor:pointer; background:url('../imagenes/menu_entornos.png') 0px -30px no-repeat;}
-	.menu_entornos li a span{line-height:30px; float:left; display:block; padding-right:15px; background:url('../imagenes/menu_entornos.png') 100% -30px no-repeat;}
-	.menu_entornos li a:hover{background-position:0px -60px; color:rgb(255,255,255);}
+	.menu_entornos li a{float:left; padding-left:15px; display:block; color:#1b1819; text-decoration:none; font-size:11px; text-transform: uppercase; cursor:pointer; background:url('../imagenes/menu_entornos.png') 0px -30px no-repeat;}
+	.menu_entornos li a span{float:left; display:block; height: 15px; padding:15px 15px 0 0; background:url('../imagenes/menu_entornos.png') 100% -30px no-repeat;}
+	.menu_entornos li a:hover{background-position:0px -60px; color:#ffffff;}
 	.menu_entornos li a:hover span{background-position:100% -60px;}
-	.menu_entornos li a.active, .menu_entornos li a.active:hover{line-height:30px; font:11px TimesNewRoman; text-transform: uppercase; background:url('../imagenes/menu_entornos.png') 0px -90px no-repeat; color:rgb(255,255,255);}
-	.menu_entornos li a.active span, .menu_entornos li a.active:hover span{background:url('../imagenes/menu_entornos.png') 100% -90px no-repeat;}
+	.menu_entornos li a.active, .menu_entornos li a.active:hover{line-height:30px; font-size:11px; text-transform: uppercase; background:url('../imagenes/menu_entornos.png') 0px -90px no-repeat; color:#ffffff;}
+	.menu_entornos li a.active span, .menu_entornos li a.active:hover span{background:url('../imagenes/menu_entornos.png') 100% -90px no-repeat;}	
+	
