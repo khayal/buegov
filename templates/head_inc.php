@@ -70,13 +70,14 @@
 				
 		</style>";
 	
-?>
+	?>
+	
 	<div id="barra_entorno">
 		<div style="margin-top: 20px"><a href="http://www.buenosaires.gob.ar"><img src="imagenes/logoBA_<?=strtolower(extractLanguage($cEntorno,'es'))?>.gif" width="202" height="43" style="border:none" alt="Gobierno de Buenos Aires" /></a></div>
 		<div style="padding: 10px">
 			<div><h1>Buenos Aires</h1></div>
 			<div><h2><?=extractLanguage($cEntorno, $lang)?></h2></div>
-			<div><h3>portal oficial de turismo de la ciudad de buenos aires</h3></div>
+			<div><h3><?=mostrar_termino('LBL_Titulo_Portal')?></h3></div>
 			<div class="fecha">
 				<?=$oFechaHoy->getValue ("dd")." de ".$oFechaHoy->getValue ("mmmm, yyyy")?><br/>
 				<?=$oFechaHoy->getValue ("hh:ii")?>

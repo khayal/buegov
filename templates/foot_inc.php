@@ -1,6 +1,6 @@
 	<div id="foot">
 		<div style="float: left">
-			<div>© 2004-2009 Sitio oficial de turismo de la Ciudad de Buenos Aires</div>
+			<div>© 2004-2009 <?=mostrar_termino('LBL_SitioOficial')?></div>
 			<div>
 				<a href="../institucional/index.php?page=usoinfo" class="FooterLink">Uso de la información</a> - 
 				<a href="../institucional/index.php?page=creditos" class="FooterLink">Créditos</a> - 

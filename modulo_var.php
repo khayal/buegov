@@ -2,8 +2,8 @@
 	// Define Constantes del Modulo
 	//define( 'PATH_ROOT' , '/home/hurrell/public_html/bue' );    
 	//define( 'PATH_MODULES' , '/home/hurrell/public_html/desa/modules/' );
-	define( 'PATH_ROOT' , '/home/sclaros/htdocs/bue/' );    
-	define( 'PATH_MODULES' , '/home/sclaros/htdocs/desa/modules/' );
+	define( 'PATH_ROOT' , '/home/nh/htdocs/bue/' );    
+	define( 'PATH_MODULES' , '/home/nh/htdocs/desa/modules/' );
 	//define( 'PATH_ROOT' , '/var/www/bue/' );
 	//define( 'PATH_MODULES' , '/var/www/desa/modules/' );
 	//define( 'PATH_ROOT' , '/var/www/html/bue/' );
