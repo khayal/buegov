@@ -1,0 +1,119 @@
+/************************Estilos de la  Biblioteca de Mensajes *********************/
+div.mensaje_error
+  {
+	background-color: #ff5c30;
+    border: 1px solid #dd3c10;
+    color: #ffffff;
+  }
+div.mensaje_advertencia
+  {
+	background-color: #ffebe8;
+    border: 1px solid #dd3c10;
+    color: #000000;
+  }
+
+div.mensaje_aviso
+  {
+	background-color: #fff1a8;
+    border: 1px solid #efe1a8;
+    color: #000000;
+  }
+
+/*************************** Estilo de la Estructura Principal *********************/
+	@media print
+	{
+		#head		{ display:none; }
+		#body_left		{ display:none; }
+		#body_right	{ display:none; }
+		#body
+		{
+			position: relative;
+			width: 100%;
+			left: 0;
+			background-color: #ffffff;
+		}
+		#body_main
+		{
+			position: relative;
+			left: 0;
+			width: 100%;
+			background-color: #ffffff;
+		}
+	}
+	#container
+	{
+		position: relative;
+		overflow: auto;
+		margin: auto;
+		width: 960px;
+		background: url(../imagenes/fondo_prensa.gif) repeat-y;
+	}
+	#subcontainer
+	{
+		float: left;
+		width: 738px;
+		padding: 10px;
+		background: #ffffff;
+	}
+	#barra_entorno
+	{
+		float: left;
+		width: 172px;
+		padding: 20px 10px 20px 20px;
+	}
+	#head a
+	{
+
+	}
+	#sending
+	{
+		position: absolute;
+		top: 50px;
+		left: 50%;
+		margin-left: -50px;
+		height: 100px;
+		width: 100px;
+		/*background-color: #FFFFFF;*/
+		background-image: url(imagenes/cargando.gif);
+		z-index: 99;
+		visibility: hidden;
+	}
+	#head
+	{
+	}
+	#menu
+	{
+	}
+	#body
+	{
+	}
+	#mensajes
+	{
+	}
+	#body_left
+	{
+	}
+	#body_main
+	{
+	}
+	#body_main_pop
+	{
+	}
+	#body_right
+	{
+	}
+	#popup
+	{
+	}
+	#popup_inmain
+	{
+	}
+	#foot
+	{
+	}
+	#foot a
+	{
+	}
+	#foot a:hover
+	{
+	}
