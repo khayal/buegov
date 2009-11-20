@@ -26,7 +26,7 @@
 	// Abre los objetos de los modulos
 	// Abre los objetos de los modulos
 	$aInstallModules['base'] = array (  'nModule' => 1, 'cPathModule' => PATH_MODULES . 'base',
-                                      'cUrl' => URL_MODULES  .'/base' ,
+                                      'cUrl' => URL_MODULES  .'base' ,
 										'cPathConf' => './conf' ,
 										'cUrlCss' => (defined('MODO_ADMIN') && MODO_ADMIN ? URL_MODULES .'base/css'  : URL_ROOT .'css'  ), 
 										'cPathTemplates' => (defined('MODO_ADMIN') && MODO_ADMIN ? PATH_MODULES .'base/templates1' : PATH_ROOT .'templates' )
