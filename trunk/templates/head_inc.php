@@ -17,27 +17,22 @@
 	
 	$oMenuPpal = new Menu('body', 'menu_ppal', 'menu_ppal', true);
 	$oMenuPpal->setMuestraSelector(true);
-	$cSql = "SELECT ncMenu, cdMenu, cUrl, bExpandido, cDescripcion FROM gtMenu WHERE ncEstadoPublicacion = 2 AND ncMenuPadre = 1";
+	$cSql = "SELECT ncMenu, cdMenu, cUrl, bExpandido, cDescripcion FROM gtMenu WHERE ncEstadoPublicacion = 2 AND ncMenuPadre = $ncMenu";
 	$oRs = $this->oDatabase->recordset($cSql);
 	while ( $oRs->moveNext() )
 	{
+		$cdMenu = extractLanguage( $oRs->aFields['cdMenu'], $this->getLanguage()) ;
+		if ( $oRs->aFields['ncMenu'] == $ncMenu ) 
+		{
+			$cEntorno = $cdMenu;
+			$cColorPpal  = $oRs->aFields['cDescripcion'];
+		}
 		$cUrl = substr($oRs->aFields['cUrl'], 0, 7) == 'http://' ? $oRs->aFields['cUrl'] : '?' . $oRs->aFields['cUrl'] . '&amp;ncMenu=' . $oRs->aFields['ncMenu'];
-		$oMenuPpal->addItem( extractLanguage( $oRs->aFields['cdMenu'], $this->getLanguage()) , $cUrl, 'body', $oRs->aFields['cDescripcion'], $oRs->aFields['bExpandido'] );
+		$oMenuPpal->addItem( $cdMenu, $cUrl, 'body', $oRs->aFields['cDescripcion'], $oRs->aFields['bExpandido'] );
 	}
-	
-	// Nombre del entorno actual
-	$cSql = "SELECT cdMenu FROM gtMenu WHERE ncMenu = $ncMenu";
-	$cEntorno = $this->oDatabase->getData($cSql);
 	//echo "<link  rel='stylesheet'  href='/bue/css/".strtolower(extractLanguage($cEntorno,'es')).".css' type='text/css' />";
 	//$aModule[$cModule]->addStyleSheet( $cEntorno.".css" );
 	
-	switch ( strtolower(extractLanguage($cEntorno,'es')) )
-	{
-		case 'turistas':			$cColorPpal = '#4dc1b7';	break;
-		case 'profesionales':	$cColorPpal = '#7763ac';	break;
-		case 'colaboradores':	$cColorPpal = '#cbdb2a';	break;
-		case 'prensa':			$cColorPpal = '#ff4e53';	break;
-	}
 	echo "
 		<style>
 			a:hover	{color:$cColorPpal;}
@@ -48,7 +43,7 @@
 				overflow: auto;
 				margin: auto;
 				width: 960px;
-				background: $cColorPpal url(imagenes/fondo_".strtolower(extractLanguage($cEntorno,'es')).".gif) repeat-y;
+				background: $cColorPpal url(imagenes/fondo_". $ncMenu .".gif) repeat-y;
 				border: 1px solid #cccccc;
 			}
 			
@@ -73,10 +68,10 @@
 	?>
 	
 	<div id="barra_entorno">
-		<div style="margin-top: 20px"><a href="http://www.buenosaires.gob.ar"><img src="imagenes/logoBA_<?=strtolower(extractLanguage($cEntorno,'es'))?>.gif" width="202" height="43" style="border:none" alt="Gobierno de Buenos Aires" /></a></div>
+		<div style="margin-top: 20px"><a href="http://www.buenosaires.gob.ar"><img src="imagenes/logoBA_<?=$ncMenu?>.gif" width="202" height="43" style="border:none" alt="Gobierno de Buenos Aires" /></a></div>
 		<div style="padding: 10px">
 			<div><h1>Buenos Aires</h1></div>
-			<div><h2><?=extractLanguage($cEntorno, $lang)?></h2></div>
+			<div><h2><?=$cEntorno?></h2></div>
 			<div><h3><?=mostrar_termino('LBL_Titulo_Portal')?></h3></div>
 			<div class="fecha">
 				<?=$oFechaHoy->getValue ("dd")." de ".$oFechaHoy->getValue ("mmmm, yyyy")?><br/>
