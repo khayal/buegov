@@ -2,31 +2,35 @@
 	$oFechaHoy = new dateTimeObject();
 	$oFechaHoy->setToday();
 	
-	$ncMenu = getParam(ncMenu, 2);
+	$ncMenu = getParam(ncMenu, START_MENU);
+	$nEntorno = getParam('mn', 1);
 	$lang = getParam(lang, 'es');
 	
 	$oMenuEntornos = new Menu('body', 'menu_entornos', 'menu_entornos', true);
 	$oMenuEntornos->setMuestraSelector(true);
 	$cSql = "SELECT ncMenu, cdMenu, cUrl, bExpandido, cDescripcion FROM gtMenu WHERE ncEstadoPublicacion = 2 AND ncMenuPadre = 1";
 	$oRs = $this->oDatabase->recordset($cSql);
+	$nIndex = 1;
 	while ( $oRs->moveNext() )
 	{
+		if ( $nIndex == $nEntorno) 
+		{
+			$cEntorno = $cdMenu;
+			$cColorPpal  = extractLanguage( $oRs->aFields['cDescripcion'], 'es');
+		}
 		$cUrl = substr($oRs->aFields['cUrl'], 0, 7) == 'http://' ? $oRs->aFields['cUrl'] : '?' . $oRs->aFields['cUrl'] . '&amp;ncMenu=' . $oRs->aFields['ncMenu'];
 		$oMenuEntornos->addItem( extractLanguage( $oRs->aFields['cdMenu'], $this->getLanguage()) , $cUrl, 'body', $oRs->aFields['cDescripcion'], $oRs->aFields['bExpandido'] );
+		$nIndex;
 	}
 	
 	$oMenuPpal = new Menu('body', 'menu_ppal', 'menu_ppal', true);
 	$oMenuPpal->setMuestraSelector(true);
+	$oMenuPpal->setKeyName( 'sb' );
 	$cSql = "SELECT ncMenu, cdMenu, cUrl, bExpandido, cDescripcion FROM gtMenu WHERE ncEstadoPublicacion = 2 AND ncMenuPadre = $ncMenu";
 	$oRs = $this->oDatabase->recordset($cSql);
 	while ( $oRs->moveNext() )
 	{
 		$cdMenu = extractLanguage( $oRs->aFields['cdMenu'], $this->getLanguage()) ;
-		if ( $oRs->aFields['ncMenu'] == $ncMenu ) 
-		{
-			$cEntorno = $cdMenu;
-			$cColorPpal  = extractLanguage( $oRs->aFields['cDescripcion'], 'es');
-		}
 		$cUrl = substr($oRs->aFields['cUrl'], 0, 7) == 'http://' ? $oRs->aFields['cUrl'] : '?' . $oRs->aFields['cUrl'] . '&amp;ncMenu=' . $oRs->aFields['ncMenu'];
 		$oMenuPpal->addItem( $cdMenu, $cUrl, 'body', $oRs->aFields['cDescripcion'], $oRs->aFields['bExpandido'] );
 	}
