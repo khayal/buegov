@@ -25,7 +25,7 @@
 		if ( $oRs->aFields['ncMenu'] == $ncMenu ) 
 		{
 			$cEntorno = $cdMenu;
-			$cColorPpal  = $oRs->aFields['cDescripcion'];
+			$cColorPpal  = extractLanguage( $oRs->aFields['cDescripcion'], 'es');
 		}
 		$cUrl = substr($oRs->aFields['cUrl'], 0, 7) == 'http://' ? $oRs->aFields['cUrl'] : '?' . $oRs->aFields['cUrl'] . '&amp;ncMenu=' . $oRs->aFields['ncMenu'];
 		$oMenuPpal->addItem( $cdMenu, $cUrl, 'body', $oRs->aFields['cDescripcion'], $oRs->aFields['bExpandido'] );

@@ -10,7 +10,7 @@
 	$oModBase->loadLibrary('componentes');
 	$oModBase->loadLibrary('window');	
 	//$oModBase->loadLibrary('mapa');	
-	if ( MODO_ADMIN ) 
+	if ( MODO_ADMIN === true) 
 	{
 		$oModBase->loadLibrary('interfaces');	
 	}
