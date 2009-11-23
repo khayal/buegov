@@ -49,7 +49,7 @@
                 overflow: auto;
                 margin: auto;
                 width: 960px;
-                background: $cColorPpal url(imagenes/fondo_". $ncMenu .".gif) repeat-y;
+                background: $cColorPpal url(imagenes/fondo_". $ncEntorno .".gif) repeat-y;
                 border: 1px solid #cccccc;
             }
             
