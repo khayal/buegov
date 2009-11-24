@@ -3,8 +3,10 @@
     $oFechaHoy->setToday();
     
     $ncMenu = getParam(ncMenu, START_MENU);
-    list($nEntorno ) = explode('.', getParam('mn', 1));
-    $lang = getParam(lang, 'es');
+	
+    list($nEntorno ) = explode('.', getParam('mn'));
+	if ( !$nEntorno  ) $nEntorno  = 1;
+    $lang = getParam('lang', 'es');
     
     $oMenuEntornos = new Menu('body', 'menu_entornos', 'menu_entornos', true);
     $oMenuEntornos->setMuestraSelector(true);
@@ -24,7 +26,6 @@
         $oMenuEntornos->addItem( extractLanguage( $oRs->aFields['cdMenu'], $this->getLanguage()) , $cUrl, 'body', $oRs->aFields['cDescripcion'], $oRs->aFields['bExpandido'] );
         $nIndex++;
     }
-    
     $oMenuPpal = new Menu('body', 'menu_ppal', 'menu_ppal', true);
     $oMenuPpal->setMuestraSelector(true);
     $oMenuPpal->setKeyName( 'sb' );
