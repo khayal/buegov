@@ -21,6 +21,7 @@
 	//$aModule[$cModule]->oDatabase = openDB( DB_MYSQL, 'localhost', 'librosar', 'cal', 'isbn1982');
 	$aModule[$cModule]->oDatabase = openDB( DB_MYSQL, 'localhost', 'git', 'root', 'c4r4m3l0');
 	$aModule[$cModule]->oDatabase->connect();
+	$aModule[$cModule]->addHeadFile( "templates/style_inc.php" );
 	$aModule[$cModule]->addStyleSheet( "bue.css" );
 	$aModule[$cModule]->setTemplateHead( $oModBase->getTemplateHead() );
   // Define las constantes del la contrasena
