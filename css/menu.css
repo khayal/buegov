@@ -7,10 +7,10 @@ gris nuevo negro:	1b1819
 	/*	ENTORNOS	*/
 	.menu_entornos{margin:0 auto; padding:0; height:30px; width:100%; display:block; background:url('../imagenes/menu_entornos.png') repeat-x;}
 	.menu_entornos li{padding:0; margin:0; list-style:none; display:inline;}
-	.menu_entornos li a{float:left; padding-left:15px; display:block; color:#1b1819; text-decoration:none; font-size:11px; text-transform: uppercase; cursor:pointer; background:url('../imagenes/menu_entornos.png') 0px -30px no-repeat;}
+	.menu_entornos li a{float:left; padding-left:15px; display:block; color:#1b1819; text-decoration:none; font-size:11px; font-weight:bold; text-transform: uppercase; cursor:pointer; background:url('../imagenes/menu_entornos.png') 0px -30px no-repeat;}
 	.menu_entornos li a span{float:left; display:block; height:15px; padding:15px 15px 0 0; background:url('../imagenes/menu_entornos.png') 100% -30px no-repeat;}
 	.menu_entornos li a:hover{background-position:0px -60px; color:#ffffff;}
 	.menu_entornos li a:hover span{background-position:100% -60px;}
-	.menu_entornos li a.active, .menu_entornos li a.active:hover{height:30px; font-size:11px; text-transform: uppercase; background:url('../imagenes/menu_entornos.png') 0px -90px no-repeat; color:#ffffff;}
+	.menu_entornos li a.active, .menu_entornos li a.active:hover{height:30px; font-size:11px; font-weight:bold; text-transform: uppercase; background:url('../imagenes/menu_entornos.png') 0px -90px no-repeat; color:#ffffff;}
 	.menu_entornos li a.active span, .menu_entornos li a.active:hover span{height:30px; background:url('../imagenes/menu_entornos.png') 100% -90px no-repeat;}	
 	
