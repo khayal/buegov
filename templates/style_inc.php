@@ -9,6 +9,7 @@
 	$cColorPpal = $aColores[$nEntorno-1];
 ?>
 <style type='text/css'>
+<!--
 	a:hover    {color:<?=$cColorPpal?>}
 	
 	#container
@@ -69,5 +70,5 @@
 		overflow: hidden;
 	}
 	#contenido_home .titulo	{	font-size: 20px; font-weight: bold;	}
-
+-->
 </style>
