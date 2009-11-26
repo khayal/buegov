@@ -4,7 +4,7 @@
 		'#4dc1b7',	//	turistas
 		'#7763ac',	//	profesionales
 		'#cbdb2a',	//	colaboradores
-		'#ff4e53'	//	prensa
+		'#ff4e53'		//	prensa
 		);
 	$cColorPpal = $aColores[$nEntorno-1];
 ?>
