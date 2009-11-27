@@ -8,12 +8,12 @@
 	$oModBase->loadLibrary('menu');
 	$oModBase->loadLibrary('session');
 	$oModBase->loadLibrary('componentes');
-	$oModBase->loadLibrary('window');	
-	//$oModBase->loadLibrary('mapa');	
+	$oModBase->loadLibrary('window');
+	//$oModBase->loadLibrary('mapa');
 	if ( MODO_ADMIN === true) 
 		$oModBase->loadLibrary('interfaces');	
 	else
-		$oModBase->addHeadFile( "templates/style_inc.php" );
+		$oModBase->addHeadFile( 'templates/style_inc.php' );
 	
 	$aModule[$cModule]->copy( &$oModBase , false );	
 	$aModule[$cModule]->oUserSession = new UserSession();	
