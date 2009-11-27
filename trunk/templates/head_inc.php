@@ -68,7 +68,7 @@
                     <div style="overflow: auto">
                         <div style="float:left">Mi Buenos Aires <img src="imagenes/fle_der.gif" width="7" height="8" style="border:none" alt=">" /></div>
                         <div style="float:left; margin-left: 10px"><a href='?ac=perfil&amp;mo=clientes'>registrarme</a></div>
-                        <div style="float:left; margin-left: 10px"><a href='?ac=login&amp;mo=clientes' onclick="openPopup('?ac=login&amp;mo=clientes&fr=action' , 'Ingresar' );return false;">ingresar</a></div>
+                        <div style="float:left; margin-left: 10px"><a href='?ac=login&amp;mo=clientes' onclick="openPopup('?ac=login&amp;mo=clientes&rf=action' , 'Ingresar' );return false;">ingresar</a></div>
                     </div>
                 </div>
                 <div style="float: right">
