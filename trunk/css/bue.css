@@ -92,6 +92,10 @@ gris nuevo negro:	1b1819
 		top: 24px;
 		right: 0;
 	}
+	#solapas h3
+	{
+		visibility: hidden;
+	}
 	
 	#listado .atractivo
 	{
