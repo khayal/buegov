@@ -1,0 +1,57 @@
+/************************Estilos de las Ventanas *********************/
+	.fondo
+	{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left: 0pt;
+		top: 0pt;
+	}
+	.window
+	{
+		position: absolute;
+		border-top: 3px solid #DDD;
+		border-left: 3px solid #DDD;
+		border-right: 3px solid #888;
+		border-bottom: 3px solid #888;
+		background-color: #FFF;
+		z-index: 2;
+	}
+	.window .buttons
+	{
+		float: right;
+		width: 10%;
+		background-color: #DDD;
+		font-family: Verdana, Helvetica, sans-serif;
+	}
+	.window .buttons a
+	{
+		color: #000;
+		font-size: 10px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.window .buttons a:hover
+	{
+		color: #FFF;
+		font-size: 10px;
+		font-weight: bold;
+	}
+	.window .title
+	{
+		float: left;
+		width: 90%;
+		cursor: move;
+		color: #333;
+		background-color: #DDD;
+		text-align: center;
+		font-family: Verdana, Helvetica, sans-serif;
+		font-size: 10px;
+		font-weight: bold;
+		letter-spacing: 2pt;
+	}
+	.window .inside
+	{
+		float: left;
+		overflow: auto;
+	}
