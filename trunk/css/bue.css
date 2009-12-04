@@ -48,6 +48,11 @@ gris nuevo negro:	1b1819
 	{
 		color: #f23b79;
 	}
+	#filtros .titulo_filtro
+	{
+		margin-top: 10px;
+		font-weight: bold;
+	}
 	
 	#parametros
 	{
@@ -91,10 +96,6 @@ gris nuevo negro:	1b1819
 		position: absolute;
 		top: 24px;
 		right: 0;
-	}
-	#solapas h3
-	{
-		color: red;
 	}
 	
 	#listado .atractivo
