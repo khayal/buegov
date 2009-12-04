@@ -14,3 +14,6 @@ gris nuevo negro:	1b1819
 	.menu_entornos li a.active, .menu_entornos li a.active:hover{height:30px; font-size:11px; font-weight:bold; text-transform: uppercase; background:url('../imagenes/menu_entornos.png') 0px -90px no-repeat; color:#ffffff;}
 	.menu_entornos li a.active span, .menu_entornos li a.active:hover span{height:30px; background:url('../imagenes/menu_entornos.png') 100% -90px no-repeat;}	
 	
+	/*	FILTROS ARMADORES 		*/
+	.filtro_ul	{margin:0 auto; padding:0}
+	.filtro_ul li{margin:0; padding:0; list-style:none;}
