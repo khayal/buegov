@@ -71,5 +71,7 @@
 		overflow: hidden;
 	}
 	#contenido_home .titulo	{	font-size: 20px; font-weight: bold;	}
+	
+	#filtros .subtitulo	{	font-size: 12px; font-weight: bold; text-transform: uppercase; color: <?=$cColorPpal?>	}
 -->
 </style>

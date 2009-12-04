@@ -4,4 +4,101 @@ gris nuevo negro:	1b1819
 
 */
 
+	#armador
+	{
+		position: relative;
+		overflow: auto;
+		margin-top: 20px;
+	}
+	#armador .izquierda
+	{
+		float: left;
+		width: 180px;
+		overflow: hidden;
+	}
+	#armador .derecha
+	{
+		float: right;
+		width: 550px;
+		overflow: hidden;
+	}
+	#armador .cantidad_resultados
+	{
+		font-size: 36px;
+	}
+	
+	#filtros .titulo
+	{
+		font-size: 13px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	#filtros input
+	{
+		width: 100px;
+		height: 12px;
+		font-size: 10px;
+	}
+	#filtros input .boton
+	{
+		font-size: 10px;
+		font-weight: bold;
+	}
+	#filtros .mas
+	{
+		color: #f23b79;
+	}
+	
+	#parametros
+	{
+		background-color: #dff3f2;
+		padding: 5px 10px;
+		margin: 10px 0 20px;
+	}
+	#parametros .grupo
+	{
+		padding-right: 20px;
+	}
+	#parametros .titulo
+	{
+		font-weight: bold;
+	}
+	#parametros .cruz
+	{
+		visibility: hidden;
+		position: absolute;
+		top: 0px;
+		right: 5px;
+	}
+	
+	#resultados .cabezal
+	{
+		border-top: 2px solid #c0c0c0;
+		border-bottom: 2px solid #c0c0c0;
+		padding: 8px 0;
+	}
+	#resultados .vistas
+	{
+		float: right;
+	}
+	#resultados .orden
+	{
+		float: left;
+	}
+	
+	#listado .atractivo
+	{
+		padding: 8px 0;
+		border-bottom: 1px solid #c0c0c0;
+	}
+	#listado .atractivo .titulo a
+	{
+		font-size: 12px;
+		font-weight: bold;
+		color: #1b1819;
+	}
+	#listado .atractivo .titulo a:hover	{ color: #f23b79; }
+	
+	
+	
 	
