@@ -17,3 +17,7 @@ gris nuevo negro:	1b1819
 	/*	FILTROS ARMADORES 		*/
 	.filtro_ul	{margin:0 auto; padding:0}
 	.filtro_ul li{margin:0; padding:0; list-style:none;}
+	
+	/*	SOLAPAS ARMADORES		*/
+	#resultados #solapas .solapas	{margin:0 auto; padding:0}
+	#resultados #solapas .solapas li	{padding:0 2px; margin:0; list-style:none; display:inline; text-transform:lowercase}

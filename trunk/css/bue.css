@@ -71,6 +71,7 @@ gris nuevo negro:	1b1819
 		right: 5px;
 	}
 	
+	#resultados	{ position: relative }
 	#resultados .cabezal
 	{
 		border-top: 2px solid #c0c0c0;
@@ -85,6 +86,12 @@ gris nuevo negro:	1b1819
 	{
 		float: left;
 	}
+	#resultados #solapas
+	{
+		position: absolute;
+		top: 24px;
+		right: 0;
+	}
 	
 	#listado .atractivo
 	{
@@ -98,6 +105,21 @@ gris nuevo negro:	1b1819
 		color: #1b1819;
 	}
 	#listado .atractivo .titulo a:hover	{ color: #f23b79; }
+	
+	#mini_fichas .atractivo
+	{
+		float: left;
+		width: 46%;
+		padding: 10px;
+		border-bottom: 1px dashed #CCC;
+	}
+	#mini_fichas .atractivo .titulo a
+	{
+		font-size: 12px;
+		font-weight: bold;
+		color: #1b1819;
+	}
+	#mini_fichas .atractivo .titulo a:hover	{ color: #f23b79; }
 	
 	
 	
