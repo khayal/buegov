@@ -53,6 +53,14 @@ gris nuevo negro:	1b1819
 		margin-top: 10px;
 		font-weight: bold;
 	}
+	#filtros_popup
+	{
+		padding: 0 60px 0 20px;
+	}
+	#filtros_popup h2
+	{
+		text-transform: none;
+	}
 	
 	#parametros
 	{
