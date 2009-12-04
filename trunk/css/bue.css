@@ -27,6 +27,7 @@ gris nuevo negro:	1b1819
 		font-size: 36px;
 	}
 	
+	#filtros	{ color: #666666 }
 	#filtros .titulo
 	{
 		font-size: 13px;
@@ -44,14 +45,14 @@ gris nuevo negro:	1b1819
 		font-size: 10px;
 		font-weight: bold;
 	}
-	#filtros .mas
-	{
-		color: #f23b79;
-	}
+	#filtros a	{ color: #666666 }
+	#filtros .mas			{ color: #f23b79 }
+	#filtros .mas:hover	{ color: #f23b79 }
 	#filtros .titulo_filtro
 	{
 		margin-top: 10px;
 		font-weight: bold;
+		color: #1b1819;
 	}
 	#filtros_popup
 	{
