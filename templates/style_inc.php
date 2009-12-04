@@ -19,7 +19,7 @@
 		overflow: auto;
 		margin: auto;
 		width: 960px;
-		background: <?=$cColorPpal?> url(imagenes/fondo_<?= $nEntorno?>.gif) repeat-y;
+		background: #ffffff url(imagenes/fondo_<?= $nEntorno?>.gif) repeat-y;
 		border: 1px solid #cccccc;
 	}
 	
