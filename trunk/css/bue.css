@@ -107,6 +107,16 @@ rosa: 			f23b79
 		top: 24px;
 		right: 0;
 	}
+	#div_popup1_inside #solapas
+	{
+		position: absolute;
+		top: 132px;
+		left: 25px;
+	}
+	#div_popup1_inside #solapas .presentacion
+	{
+		visibility: hidden;
+	}
 	
 	#listado .atractivo
 	{
