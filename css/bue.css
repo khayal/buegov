@@ -109,13 +109,7 @@ rosa: 			f23b79
 	}
 	#div_popup1_inside #solapas
 	{
-		position: absolute;
-		top: 132px;
-		left: 25px;
-	}
-	#div_popup1_inside #solapas .presentacion
-	{
-		visibility: hidden;
+		margin-top: 10px;
 	}
 	
 	#listado .atractivo

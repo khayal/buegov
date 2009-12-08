@@ -23,11 +23,11 @@ gris nuevo negro:	1b1819
 	#resultados #solapas .solapas li	{padding:0 2px; margin:0; list-style:none; display:inline; text-transform:lowercase}
 	
 	/*	SOLAPAS POP IN		*/
-	#div_popup1_inside #solapas .solapas{margin:0 auto; padding:0; height:30px; width:100%; display:block; background:url('../imagenes/solapas_popin.png') repeat-x;}
+	#div_popup1_inside #solapas .solapas{margin:0 auto; padding:0; height:30px; width:100%; display:block; background:url('../imagenes/solapas_celestes.png') repeat-x;}
 	#div_popup1_inside #solapas .solapas li{padding:0; margin:0; list-style:none; display:inline;}
-	#div_popup1_inside #solapas .solapas li a{float:left; padding-left:15px; display:block; color:#999999; text-decoration:none; font-size:12px; text-transform: lowercase; cursor:pointer; background:url('../imagenes/solapas_popin.png') 0px -30px no-repeat;}
-	#div_popup1_inside #solapas .solapas li a span{float:left; display:block; height:18px; padding:12px 15px 0 0; background:url('../imagenes/solapas_popin.png') 100% -30px no-repeat;}
+	#div_popup1_inside #solapas .solapas li a{float:left; padding-left:15px; display:block; color:#999999; text-decoration:none; font-size:12px; text-transform: lowercase; cursor:pointer; background:url('../imagenes/solapas_celestes.png') 0px -30px no-repeat;}
+	#div_popup1_inside #solapas .solapas li a span{float:left; display:block; height:18px; padding:12px 15px 0 0; background:url('../imagenes/solapas_celestes.png') 100% -30px no-repeat;}
 	#div_popup1_inside #solapas .solapas li a:hover{background-position:0px -60px; color:#1b1819;}
 	#div_popup1_inside #solapas .solapas li a:hover span{background-position:100% -60px;}
-	#div_popup1_inside #solapas .solapas li a.active, .solapas li a.active:hover{height:30px; font-size:12px; text-transform: lowercase; background:url('../imagenes/solapas_popin.png') 0px -90px no-repeat; color:#1b1819;}
-	#div_popup1_inside #solapas .solapas li a.active span, .solapas li a.active:hover span{height:30px; background:url('../imagenes/solapas_popin.png') 100% -90px no-repeat;}	
+	#div_popup1_inside #solapas .solapas li a.active, .solapas li a.active:hover{height:30px; font-size:12px; text-transform: lowercase; background:url('../imagenes/solapas_celestes.png') 0px -90px no-repeat; color:#1b1819;}
+	#div_popup1_inside #solapas .solapas li a.active span, .solapas li a.active:hover span{height:30px; background:url('../imagenes/solapas_celestes.png') 100% -90px no-repeat;}	
