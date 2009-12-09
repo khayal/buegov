@@ -96,6 +96,7 @@ rosa: 			f23b79
 	#resultados .vistas
 	{
 		float: right;
+		padding-right: 120px;
 	}
 	#resultados .orden
 	{
@@ -112,6 +113,7 @@ rosa: 			f23b79
 		margin-top: 10px;
 	}
 	
+	#listado	{ margin-top: 4px }
 	#listado .atractivo
 	{
 		padding: 8px 0;
@@ -124,6 +126,15 @@ rosa: 			f23b79
 		color: #1b1819;
 	}
 	#listado .atractivo .titulo a:hover	{ color: #f23b79; }
+	#listado .mosaico
+	{
+		float: left;
+		margin: 2px 0 0 2px;
+		width: 130px;
+		height: 115px;
+		padding: 2px;
+		background: #efefef;
+	}
 	
 	#mini_fichas .atractivo
 	{
