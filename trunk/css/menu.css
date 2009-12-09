@@ -1,6 +1,7 @@
 /*
 Paleta de colores
 gris nuevo negro:	1b1819
+rosa: 			f23b79
 
 */
 
@@ -31,3 +32,22 @@ gris nuevo negro:	1b1819
 	#div_popup1_inside #solapas .solapas li a:hover span{background-position:100% -60px;}
 	#div_popup1_inside #solapas .solapas li a.active, .solapas li a.active:hover{height:30px; font-size:12px; text-transform: lowercase; background:url('../imagenes/solapas_celestes.png') 0px -90px no-repeat; color:#1b1819;}
 	#div_popup1_inside #solapas .solapas li a.active span, .solapas li a.active:hover span{height:30px; background:url('../imagenes/solapas_celestes.png') 100% -90px no-repeat;}	
+
+	/*	MENU INTERIOR	*/
+	.menuitem {margin:0 auto; padding:0; }
+	.menuitem li{padding:0; margin:0; list-style:none;}
+	.menuitem li a{color:#1b1819; text-decoration:none; font-size:11px; font-weight:bold; cursor:pointer; }
+	.menuitem li a span{padding:0;}
+	.menuitem li a:hover{color:#f23b79;}
+	.menuitem li a:hover span{}
+	.menuitem li a.active, .menuitem li a.active:hover{font-size:11px; font-weight:bold; color:#f23b79;}
+	.menuitem li a.active span, .menuitem li a.active:hover span{}
+	.menuitem ul {margin:0 auto; padding:0; }
+	.menuitem ul li{padding:0; margin:0; list-style:none;}
+	.menuitem ul li a{color:#666666; text-decoration:none; font-size:11px; font-weight:normal; cursor:pointer; }
+	.menuitem ul li a span{padding:0;}
+	.menuitem ul li a:hover{color:#f23b79;}
+	.menuitem ul li a:hover span{}
+	.menuitem ul li a.active, .menuitem li a.active:hover{font-size:11px; font-weight:bold; color:#f23b79;}
+	.menuitem ul li a.active span, .menuitem li a.active:hover span{}
+
