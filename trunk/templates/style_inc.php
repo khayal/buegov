@@ -76,5 +76,7 @@
 	#filtros a:hover	{ color: <?=$cColorPpal?> }
 	
 	.titulo_ficha_atractivo	{	margin-top: 20px; padding: 2px 10px; font-size: 18px; font-weight: bold; color: #ffffff; background: <?=$cColorPpal?>	}
+	
+	.numerito	{	font-size: 12px; color:<?=$cColorPpal?>	}
 -->
 </style>
