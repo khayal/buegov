@@ -1,5 +1,5 @@
 <?
-    list($nEntorno ) = explode('.', getParam('mn'));
+    list($nEntorno ) = explode('.', getParam('pe'));
 	if ( !$nEntorno  ) $nEntorno  = 1;
 	$aColores = array(
 		'#4dc1b7',	//	turistas

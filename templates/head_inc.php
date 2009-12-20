@@ -4,11 +4,12 @@
     
     $ncMenu = getParam(ncMenu, START_MENU);
 	
-    list($nEntorno ) = explode('.', getParam('mn'));
+    list($nEntorno ) = explode('.', getParam('pe'));
 	if ( !$nEntorno  ) $nEntorno  = 1;
     $lang = getParam('lang', 'es');
     
     $oMenuEntornos = new Menu('body', 'menu_entornos', 'menu_entornos', true);
+    $oMenuEntornos->setKeyName( 'pe' );
     $oMenuEntornos->setMuestraSelector(true);
     $cSql = "SELECT ncMenu, cdMenu, cUrl, bExpandido, cDescripcion FROM gtMenu WHERE ncEstadoPublicacion = 2 AND ncMenuPadre = 1";
     $oRs = $this->oDatabase->recordset($cSql);
@@ -16,9 +17,9 @@
     while ( $oRs->moveNext() )
     {
         $cdMenu = extractLanguage( $oRs->aFields['cdMenu'], $this->getLanguage()) ;
-        if ( $nIndex == $nEntorno)  
+        if ( !$ncEntorno || $nIndex == $nEntorno)  
         {
-            $cEntorno = $cdMenu;
+            $_SESSION[cEntorno] = $cEntorno = $cdMenu;
             $ncEntorno =  $oRs->aFields['ncMenu'];
         }
         $cUrl = substr($oRs->aFields['cUrl'], 0, 7) == 'http://' ? $oRs->aFields['cUrl'] : '?' . $oRs->aFields['cUrl'] . '&amp;ncMenu=' . $oRs->aFields['ncMenu'];
@@ -33,7 +34,7 @@
     while ( $oRs->moveNext() )
     {
         $cdMenu = extractLanguage( $oRs->aFields['cdMenu'], $this->getLanguage()) ;
-        $cUrl = substr($oRs->aFields['cUrl'], 0, 7) == 'http://' ? $oRs->aFields['cUrl'] : '?' . $oRs->aFields['cUrl'] . '&amp;mn=' . $nEntorno. '.&amp;ncMenu=' . $oRs->aFields['ncMenu'];
+        $cUrl = substr($oRs->aFields['cUrl'], 0, 7) == 'http://' ? $oRs->aFields['cUrl'] : '?' . $oRs->aFields['cUrl'] . '&amp;pe=' . $nEntorno. '.&amp;ncMenu=' . $oRs->aFields['ncMenu'];
         $oMenuPpal->addItem( $cdMenu, $cUrl, 'body', $oRs->aFields['cDescripcion'], $oRs->aFields['bExpandido'] );
     }
     //echo "<link  rel='stylesheet'  href='/bue/css/".strtolower(extractLanguage($cEntorno,'es')).".css' type='text/css' />";
