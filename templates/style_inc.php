@@ -39,28 +39,7 @@
 	.menu_ppal li a:hover span{background-position:100% -60px;}
 	.menu_ppal li a.active, .menu_ppal li a.active:hover{line-height:36px; font-size:12px; font-weight:bold; text-transform: lowecase; color:<?=$cColorPpal;?>;}
 	
-	#contenido
-	{
-		font-family: sans-serif;
-		border: 1px solid <?=$cColorPpal?>;
-		padding: 10px;
-	}
-	#contenido .contenido	{	margin-top: 10px;	}
-	#contenido .espacio_icono	{	width: 100px;	}
-	#contenido .texto
-	{
-		width: 600px;
-		margin-left: 10px;
-		vertical-align: top;
-	}
-	#contenido .titulo
-	{
-		font-size: 11px;
-		font-weight: bold;
-		color: <?=$cColorPpal?>;
-		text-transform: uppercase;
-	}
-	#contenido .descripcion	{	font-size: 11px;	}
+	#contenido a	{	color:<?=$cColorPpal?>;	}
 	
 	#contenido_home .celda
 	{

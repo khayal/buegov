@@ -1,6 +1,9 @@
 <?
-    $oFechaHoy = new dateTimeObject();
+    $oFechaHoy = new dateObject();
     $oFechaHoy->setToday();
+    
+    $oHoraHoy = new dateTimeObject();
+    $oHoraHoy->setToday();
     
     $ncMenu = getParam(ncMenu, START_MENU);
 	
@@ -26,9 +29,7 @@
         $oMenuEntornos->addItem( extractLanguage( $oRs->aFields['cdMenu'], $this->getLanguage()) , $cUrl, 'body', $oRs->aFields['cDescripcion'], $oRs->aFields['bExpandido'] );
         $nIndex++;
     }
-    $oMenuPpal = new Menu('body', 'menu_ppal', 'menu_ppal', true);
-    $oMenuPpal->setMuestraSelector(true);
-    $oMenuPpal->setKeyName( 'sb' );
+    $oMenuPpal = new Menu('body', 'menu_ppal', 'menu_ppal', true, 'sb');
     $cSql = "SELECT ncMenu, cdMenu, cUrl, bExpandido, cDescripcion FROM gtMenu WHERE ncEstadoPublicacion = 2 AND ncMenuPadre = $ncEntorno";
     $oRs = $this->oDatabase->recordset($cSql);
     while ( $oRs->moveNext() )
@@ -46,11 +47,11 @@
         <div style="margin-top: 20px"><a href="http://www.buenosaires.gob.ar"><img src="imagenes/logoBA_<?=$nEntorno?>.gif" width="202" height="43" style="border:none" alt="Gobierno de Buenos Aires" /></a></div>
         <div style="padding: 10px">
             <div><h1>Buenos Aires</h1></div>
-            <div><h2><?=$cEntorno?></h2></div>
+            <div><h2>turismo</h2></div>
             <div><h3><?=mostrar_termino('LBL_Titulo_Portal')?></h3></div>
             <div class="fecha">
-                <?=$oFechaHoy->getValue ("dd")." de ".$oFechaHoy->getValue ("mmmm, yyyy")?><br/>
-                <?=$oFechaHoy->getValue ("hh:ii")?>
+                <?=$oFechaHoy->getWeekDayName()." ".$oFechaHoy->getValue ("dd")." de ".$oFechaHoy->getValue ("mmmm, yyyy")?><br/>
+                <?=$oHoraHoy->getValue ("hh:ii")?>
             </div>
             <div>
                 <ul class="menu_idiomas">
