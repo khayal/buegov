@@ -1,5 +1,6 @@
 <?
 	define ( 'DB_MODO' , 2);
+	define ( 'MODO_COMPONENTE', 2 );
 	$oModBase =& loadModule( 'base' );
 	
 	$oModBase->loadLibrary('database');

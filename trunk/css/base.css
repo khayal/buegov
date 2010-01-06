@@ -77,26 +77,30 @@ div.mensaje_aviso
 	#head
 	{
 	}
-	#menu
-	{
-	}
 	#body
 	{
+		padding-top:30px;
 	}
 	#mensajes
 	{
 	}
 	#body_left
 	{
+		float:left;
+		width:140px;
 	}
-	#body_main
-	{
-	}
+	#body_main_0	{	float:left;	}
+	#body_main_1	{	float:left; width:570px;	}
+	#body_main_2	{	float:left; width:590px;	}
+	#body_main_3	{	float:left; width:598px;	}
+	#body_main_contenido	{	float:left; width:418px; padding:6px;	}
 	#body_main_pop
 	{
 	}
 	#body_right
 	{
+		float:right;
+		width:160px;
 	}
 	#popup
 	{

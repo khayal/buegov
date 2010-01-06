@@ -5,6 +5,8 @@ rosa: 			f23b79
 
 */
 
+	#menu	{		}
+
 	/*	ENTORNOS	*/
 	.menu_entornos{margin:0 auto; padding:0; height:30px; width:100%; display:block; background:url('../imagenes/menu_entornos.png') repeat-x;}
 	.menu_entornos li{padding:0; margin:0; list-style:none; display:inline;}
