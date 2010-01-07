@@ -6,6 +6,8 @@ rosa: 			f23b79
 */
 
 	#menu	{		}
+	.titulo_menu		{ margin-bottom:15px; font-weight:bold; text-transform:uppercase; line-height:10px; }
+	.titulo_menu_home	{ margin: -25px 0 5px 10px; font-size:40px; }
 
 	/*	ENTORNOS	*/
 	.menu_entornos{margin:0 auto; padding:0; height:30px; width:100%; display:block; background:url('../imagenes/menu_entornos.png') repeat-x;}
@@ -55,12 +57,12 @@ rosa: 			f23b79
 
 	/*	MENU HOME	*/
 	.menuhome {margin:0 auto; padding:0; float:left; width:590px }
-	.menuhome li{padding:0; margin:6px; width:180px; list-style:none; float:left;}
+	.menuhome li{padding:0; margin:6px; width:180px; height:250px; list-style:none; float:left;}
 	.menuhome li a{color:#1b1819; text-decoration:none; font-size:11px; font-weight:normal; cursor:pointer; }
 	.menuhome li a span{padding:0;}
 	.menuhome li a:hover{color:#f23b79;}
 	.menuhome li a:hover span{}
 	.menuhome li a.active, .menuhome li a.active:hover{font-size:11px; font-weight:normal; color:#f23b79;}
 	.menuhome li a.active span, .menuhome li a.active:hover span{}
-	.menuhome li a div.titulo	{ padding:10px 2px; font-size:20px; font-weight: bold; }
+	.menuhome li div.titulo	{ padding:10px 2px; font-size:20px; font-weight: bold; }
 
