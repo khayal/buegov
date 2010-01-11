@@ -13,6 +13,25 @@
 <!--
 	a:hover    {color:<?=$cColorPpal?>}
 	
+	.boton_favoritos
+	{
+		margin: 10px 0;
+		padding:2px 4px;
+		width:120px;
+		font-size:11px;
+		background:#e6e6e6;
+		-moz-border-radius-topleft: 2px;
+		-webkit-border-top-left-radius: 2px;
+		-moz-border-radius-topright: 2px;
+		-webkit-border-top-right-radius: 2px;
+		-moz-border-radius-bottomleft: 2px;
+		-webkit-border-bottom-left-radius: 2px;
+		-moz-border-radius-bottomright: 2px;
+		-webkit-border-bottom-right-radius: 2px;
+		border:1px solid <?=$cColorPpal?>;
+	}
+	.subtitulo	{ margin-top:10px; font-weight:bold; text-transform:uppercase; color:<?=$cColorPpal?>; }
+	
 	#container
 	{
 		position: relative;
