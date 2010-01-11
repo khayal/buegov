@@ -2,12 +2,8 @@
 	// Define Constantes del Modulo
 	define( 'PATH_ROOT' , '/home/nh/htdocs/bue/' );    
 	define( 'PATH_MODULES' , '/home/nh/htdocs/desa/modules/' );
-	//define( 'PATH_ROOT' , __DIR__ .'/' );    
-	//define( 'PATH_MODULES' , __DIR__ . '/../desa/modules/' );
-	//define( 'PATH_ROOT' , '/var/www/bue/' );
-	//define( 'PATH_MODULES' , '/var/www/desa/modules/' );
-	//define( 'PATH_ROOT' , '/var/www/html/bue/' );
-	//define( 'PATH_MODULES' , '/var/www/html/desa/modules/' );
+	//define( 'PATH_ROOT' , '/home/nachohc/public_html/bue/' );    
+	//define( 'PATH_MODULES' , '/home/nachohc/public_html/desa/modules/' );
 	
     define( 'URL_ROOT'      , '/bue/' );
     define( 'URL_MODULES'      , '/desa/modules/' );
@@ -23,7 +19,7 @@
                  array ('en', 'Ingles'   , 'lang_en.gif'),
                  array ('pt', 'Portugues', 'lang_pt.gif'),
                        );
-	// Abre los objetos de los modulos
+	
 	// Abre los objetos de los modulos
 	$aInstallModules['base'] = array (  'nModule' => 1, 'cPathModule' => PATH_MODULES . 'base',
                                       'cUrl' => URL_MODULES  .'base' ,
