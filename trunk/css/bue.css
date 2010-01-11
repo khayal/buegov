@@ -11,6 +11,31 @@ rosa: 			f23b79
 		color: #1b1819;
 	}
 	
+	#buscador_menu
+	{
+		font-size:11px;
+		font-weight:bold;
+	}
+	.input_buscador_menu
+	{
+		width: 108px;
+		height: 14px;
+		font-size:11px;
+		border:1px solid #cccccc;
+	}
+	#buscador_menu a
+	{
+		font-weight:normal;
+		color:#999999;
+		text-decoration:underline;
+	}
+	#buscador_menu a:hover
+	{
+		font-weight:normal;
+		color:#f23b79;
+		text-decoration:underline;
+	}
+	
 	.fecha
 	{
 		margin-top: 40px;
