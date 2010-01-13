@@ -7,7 +7,7 @@ rosa: 			f23b79
 
 	#menu	{		}
 	.titulo_menu		{ margin-bottom:15px; font-weight:bold; text-transform:uppercase; line-height:10px; }
-	.titulo_menu_home	{ margin: -25px 0 5px 10px; font-size:40px; }
+	.titulo_menu_home	{ margin: -25px 0 5px 0; font-size:40px; }
 
 	/*	ENTORNOS	*/
 	.menu_entornos{margin:0 auto; padding:0; height:30px; width:100%; display:block; background:url('../imagenes/menu_entornos.png') repeat-x;}
@@ -67,7 +67,7 @@ rosa: 			f23b79
 
 	/*	MENU HOME	*/
 	.menuhome {margin:0 auto; padding:0; }
-	.menuhome li{padding:0; margin:6px 9px 0 0; width:175px; height:250px; list-style:none; float:left;}
+	.menuhome li{padding:0; margin:6px 9px 0 0; width:175px; height:280px; list-style:none; float:left;}
 	.menuhome li a{color:#1b1819; text-decoration:none; font-size:11px; font-weight:normal; cursor:pointer; }
 	.menuhome li a span{padding:0;}
 	.menuhome li a:hover{color:#f23b79;}

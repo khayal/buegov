@@ -87,12 +87,12 @@ div.mensaje_aviso
 	#body_left
 	{
 		float:left;
-		width:186px;
+		width:185px;
 	}
 	#body_main_0		{ float:left; }
 	#body_main_1		{ float:left; }
-	#body_main_2		{ float:left; width:590px; }
-	#body_main_3		{ float:left; width:598px; }
+	#body_main_2		{ float:left; }
+	#body_main_3		{ float:left; }
 	#body_main_contenido	{ float:left; }
 	#body_main_pop
 	{
