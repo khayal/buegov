@@ -234,7 +234,9 @@ rosa: 			f23b79
 	#banner ul	{ margin:0 auto; padding:0; }
 	#banner ul li	{ padding:0; margin:10px; }
 	
-	#recorridos	{ width:100%; }
+	#recorridos	{ }
+	#recorridos .guia				{ font-size:12px; font-weight:bold; text-transform:uppercase; color:#f23b79 }
+	#recorridos .titulo_recorrido	{ font-size:40px; margin-top:10px; }
 	
 	
 	
