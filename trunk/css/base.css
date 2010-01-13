@@ -87,13 +87,13 @@ div.mensaje_aviso
 	#body_left
 	{
 		float:left;
-		width:140px;
+		width:186px;
 	}
 	#body_main_0		{ float:left; }
-	#body_main_1		{ float:left; width:570px; }
+	#body_main_1		{ float:left; }
 	#body_main_2		{ float:left; width:590px; }
 	#body_main_3		{ float:left; width:598px; }
-	#body_main_contenido	{ float:left; width:418px; padding:6px; }
+	#body_main_contenido	{ float:left; }
 	#body_main_pop
 	{
 	}
@@ -110,6 +110,7 @@ div.mensaje_aviso
 	}
 	#foot
 	{
+		margin-top:10px;
 		font-size:11px;
 		color:#ffffff;
 	}
