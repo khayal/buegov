@@ -237,6 +237,28 @@ rosa: 			f23b79
 	#recorridos	{ }
 	#recorridos .guia				{ font-size:12px; font-weight:bold; text-transform:uppercase; color:#f23b79 }
 	#recorridos .titulo_recorrido	{ font-size:40px; margin-top:10px; }
+	#recorridos #buscador
+	{
+		margin:20px 0;
+		overflow: auto;
+		padding: 6px 14px;
+		color:#ffffff;
+		background:#4d4d4d;
+		-moz-border-radius-topleft:3px;
+		-webkit-border-top-left-radius:3px;
+		-moz-border-radius-topright:3px;
+		-webkit-border-top-right-radius:3px;
+		-moz-border-radius-bottomleft:3px;
+		-webkit-border-bottom-left-radius:3px;
+		-moz-border-radius-bottomright:3px;
+		-webkit-border-bottom-right-radius:3px;
+	}
+	#recorridos #buscador input
+	{
+		width:200px;
+		height:17px;
+		border:none;
+	}
 	
 	
 	
