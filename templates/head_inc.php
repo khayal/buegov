@@ -61,6 +61,7 @@
                 </ul>
             </div>
         </div>
+        <div class="foot_in_head">© 2004-2009<br/><?=mostrar_termino('LBL_SitioOficial')?></div>
     </div>
     
     <div id="subcontainer"> <!-- Cierra en el FOOT -->
