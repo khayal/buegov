@@ -5,6 +5,13 @@ rosa: 			f23b79
 
 */
 
+	.foot_in_head
+	{
+		padding:10px;
+		font-size:10px;
+		text-transform:uppercase;
+	}
+	
 	#body_main_head .titulo
 	{
 		font-size: 30px;

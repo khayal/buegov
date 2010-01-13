@@ -76,5 +76,7 @@
 	.titulo_ficha_atractivo	{	margin-top: 20px; padding: 2px 10px; font-size: 18px; font-weight: bold; color: #ffffff; background: <?=$cColorPpal?>	}
 	
 	.numerito	{	font-size: 12px; color:<?=$cColorPpal?>	}
+	
+	.fondo_foot	{ overflow:auto; padding:4px 10px; background: <?=$cColorPpal?> }
 -->
 </style>
