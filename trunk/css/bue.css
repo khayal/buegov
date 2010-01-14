@@ -260,7 +260,8 @@ rosa: 			f23b79
 		border:none;
 	}
 	
-	
+	.paginado	{ float:left }
+	.orden		{ float:right }
 	
 	
 	
