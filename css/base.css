@@ -92,8 +92,8 @@ div.mensaje_aviso
 	#body_main_0		{ float:left; }
 	#body_main_1		{ float:left; }
 	#body_main_2		{ float:left; }
-	#body_main_3		{ float:left; }
-	#body_main_contenido	{ float:left; }
+	#body_main_3		{ float:left; width:553px }
+	#body_main_contenido	{ float:left; width:380px } /* probar tamaño en recorrido y contenido... para que no se caigan los banners */
 	#body_main_pop
 	{
 	}
