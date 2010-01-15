@@ -45,18 +45,19 @@ div.mensaje_aviso
 			background-color: #ffffff;
 		}
 	}
-	#subcontainer
-	{
-		float: left;
-		width: 738px;
-		padding: 10px;
-		background: #ffffff;
-	}
-	#barra_entorno
+	
+	.barra_entorno
 	{
 		float: left;
 		width: 202px;
 	}
+	.subcontainer
+	{
+		float:left;
+		width:738px;
+		padding:0 10px;
+	}
+	
 	#head a
 	{
 
@@ -76,10 +77,11 @@ div.mensaje_aviso
 	}
 	#head
 	{
+		overflow:auto;
 	}
 	#body
 	{
-		padding-top:30px;
+		overflow:auto;
 	}
 	#mensajes
 	{
@@ -110,9 +112,8 @@ div.mensaje_aviso
 	}
 	#foot
 	{
+		overflow:auto;
 		margin-top:10px;
-		font-size:11px;
-		color:#ffffff;
 	}
 	#foot a
 	{
@@ -120,6 +121,7 @@ div.mensaje_aviso
 		font-weight:normal;
 		text-decoration:none;
 		color:#ffffff;
+		
 	}
 	#foot a:hover
 	{

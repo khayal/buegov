@@ -77,6 +77,6 @@
 	
 	.numerito	{	font-size: 12px; color:<?=$cColorPpal?>	}
 	
-	.fondo_foot	{ overflow:auto; padding:4px 10px; background: <?=$cColorPpal?> }
+	.fondo_foot	{ overflow:auto; padding:4px 10px; color:#ffffff; background: <?=$cColorPpal?> }
 -->
 </style>

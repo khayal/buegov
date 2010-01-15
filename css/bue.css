@@ -4,10 +4,9 @@ gris nuevo negro:	1b1819
 rosa: 			f23b79
 
 */
-
-	.foot_in_head
+	.foot_in_entorno
 	{
-		padding:10px;
+		padding:0 10px 10px 10px;
 		font-size:10px;
 		text-transform:uppercase;
 	}
