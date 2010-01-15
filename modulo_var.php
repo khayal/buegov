@@ -1,9 +1,9 @@
 <?
 	// Define Constantes del Modulo
-	define( 'PATH_ROOT' , '/home/nh/htdocs/bue/' );    
-	define( 'PATH_MODULES' , '/home/nh/htdocs/desa/modules/' );
-	//define( 'PATH_ROOT' , '/home/nachohc/public_html/bue/' );    
-	//define( 'PATH_MODULES' , '/home/nachohc/public_html/desa/modules/' );
+	define( 'PATH_ROOT' , __DIR__ .'/' );
+	define( 'PATH_MODULES' , __DIR__ . '/../desa/modules/' );
+	//define( 'PATH_ROOT' , '/home/nh/htdocs/bue/' );    
+	//define( 'PATH_MODULES' , '/home/nh/htdocs/desa/modules/' );
 	
     define( 'URL_ROOT'      , '/bue/' );
     define( 'URL_MODULES'      , '/desa/modules/' );
@@ -13,7 +13,7 @@
     define( 'START_MODULE'  , 'portal' );
     define( 'START_ACTION'  , 'componentes' );
     define( 'START_MENU'  , 2);
-
+	$aMenu = array( 'ncMenu' => START_MENU );
 	$aLanguage = array (
                  array ('es', 'Español'  , 'lang_es.gif'),
                  array ('en', 'Ingles'   , 'lang_en.gif'),

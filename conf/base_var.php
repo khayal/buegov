@@ -1,8 +1,8 @@
 <?
 	// Define las Constantes de Directorios
 	define ( 'MODO_AJAX', MODO_AJAX_HABILITADO);
-	define( 'PATH_FILES' , '/home/nh/htdocs/desa/files' );
-	define( 'URL_FILES' , '../desa/files' );
+	define( 'PATH_FILES' ,   '/home/sclaros/htdocs/desa/files' );
+	define( 'URL_FILES' ,  '/desa/files/' );
 	define( 'LOG_FILE' , PATH_ROOT . 'log/log.txt' );
 	define( 'PATH_TMP' , PATH_FILES . 'tmp' );
 	define( 'PATH_BANCO_IMAGENES' , PATH_ROOT . 'files/banco_imagenes' );
