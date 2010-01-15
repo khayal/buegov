@@ -1,13 +1,13 @@
 <?
-    list($nEntorno ) = explode('.', getParam('pe'));
-	if ( !$nEntorno  ) $nEntorno  = 1;
+
 	$aColores = array(
-		'#4dc1b7',	//	turistas
-		'#7763ac',	//	profesionales
-		'#cbdb2a',	//	colaboradores
-		'#ff4e53'		//	prensa
+		2 => '#4dc1b7',	//	turistas
+		3 => '#7763ac',	//	profesionales
+		4 => '#cbdb2a',	//	colaboradores
+		5 => '#ff4e53'		//	prensa
 		);
-	$cColorPpal = $aColores[$nEntorno-1];
+	global $aMenu;
+	$cColorPpal = $aColores[$aMenu[ncEntorno]];
 ?>
 <style type='text/css'>
 <!--
@@ -38,7 +38,7 @@
 		overflow: auto;
 		margin: auto;
 		width: 960px;
-		background: #ffffff url(imagenes/fondo_<?= $nEntorno?>.gif) repeat-y;
+		background: #ffffff url(imagenes/fondo_<?= $aMenu[ncEntorno]?>.gif) repeat-y;
 		border: 1px solid #cccccc;
 	}
 	

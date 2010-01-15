@@ -25,6 +25,14 @@
 	$aModule[$cModule]->oDatabase->connect();
 	$aModule[$cModule]->addStyleSheet( "bue.css" );
 	$aModule[$cModule]->setTemplateHead( $oModBase->getTemplateHead() );
+	
+	global $aMenu;
+	$ncMenu = getParam(ncMenu, START_MENU);
+	$aMenu = $aModule[$cModule]->oDatabase->getArray("SELECT ncMenu, cdMenu, cCamino, nOrden FROM gtMenu WHERE ncMenu = $ncMenu");
+    list($nSitio, $ncEntorno, $nSeccion, $nMenu, $nOrden) = explode('.', $aMenu[cCamino] . $ncMenu );
+	$aMenu[ncEntorno] = $ncEntorno;
+	$aMenu[nSeccion] = $nSeccion;
+	
   // Define las constantes del la contrasena
 	define ( 'CLAVE_SAVE_AS_HASH' ,  true);
 	define ( 'CLAVE_HASH' ,  'E7k5w3J26Q2Qo7T0d34e' );
