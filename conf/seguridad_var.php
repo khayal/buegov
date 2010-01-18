@@ -30,6 +30,7 @@
 	$ncMenu = getParam(ncMenu, START_MENU);
 	$aMenu = $aModule[$cModule]->oDatabase->getArray("SELECT ncMenu, cdMenu, cCamino, nOrden FROM gtMenu WHERE ncMenu = $ncMenu");
     list($nSitio, $ncEntorno, $nSeccion, $nMenu, $nOrden) = explode('.', $aMenu[cCamino] . $ncMenu );
+	$aMenu[cdMenu] = extractLanguage($aMenu[cdMenu] , $aModule[$cModule]->getLanguage() );
 	$aMenu[ncEntorno] = $ncEntorno;
 	$aMenu[nSeccion] = $nSeccion;
 	
