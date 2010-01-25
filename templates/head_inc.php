@@ -30,24 +30,23 @@
 
 <div id="head">
 	<div class="barra_entorno">
-		<div style="margin-top: 20px"><a href="http://www.buenosaires.gob.ar"><img src="imagenes/logoBA_<?=$aMenu[ncEntorno]?>.gif" width="202" height="43" style="border:none" alt="Gobierno de Buenos Aires" /></a></div>
+		<div style="margin-top:20px"><a href="http://www.buenosaires.gob.ar"><img src="imagenes/logoBA_<?=$aMenu[ncEntorno]?>.gif" width="202" height="43" style="border:none" alt="Gobierno de Buenos Aires" /></a></div>
 	</div>
 	<div class="subcontainer">
 		<!-- ingreso y buscador -->
-		<div style="overflow: auto; height: 40px">
-			<div style="float: left">
-				<div style="overflow: auto">
+		<div style="overflow:auto; height:40px">
+			<div style="float:left">
+				<div style="overflow:auto; margin-top:3px">
 					<div style="float:left">Mi Buenos Aires <img src="imagenes/fle_der.gif" width="7" height="8" style="border:none" alt=">" /></div>
-					<div style="float:left; margin-left: 10px"><a href='?ac=perfil&amp;mo=clientes'>registrarme</a></div>
-					<div style="float:left; margin-left: 10px"><a href='?ac=login&amp;mo=clientes' onclick="openPopup('?ac=login&amp;mo=clientes&rf=action' , 'Ingresar' );return false;">ingresar</a></div>
+					<div style="float:left; margin-left:10px"><a href='?ac=perfil&amp;mo=clientes'>registrarme</a></div>
+					<div style="float:left; margin-left:10px"><a href='?ac=login&amp;mo=clientes' onclick="openPopup('?ac=login&amp;mo=clientes&rf=action' , 'Ingresar' );return false;">ingresar</a></div>
 				</div>
 			</div>
-			<div style="float: right">
-				<div style="overflow: auto; border: 2px solid #bbbbbb">
+			<div style="float:right">
+				<div style="overflow:auto; height:18px; border:2px solid #bbbbbb">
 					<form>
-					<div style="float:left"><input type="text" name="buscar" style="border:none; width:100px" /></div>
-					<div style="float:left"><select style="border:none; width:60px"></select></div>
-					<div style="float:left"><input type="submit" value="buscar" style="width:60px; height:20px; border:none; background:#1b1819; font:10px Georgia; color:#ffffff; text-transform:uppercase" /></div>
+					<div style="float:left"><input type="text" name="buscar" onclick="this.value=''" style="border:none; width:100px; padding:3px 0 0 2px; font-family:serif; font-size:10px; color:#6d6d6d; text-transform:uppercase" value="buscar" /></div>
+					<div style="float:left"><input type="image" src="imagenes/flecha_buscar.gif" value="buscar" width="18" height="18" style="border:none" alt="buscar" /></div>
 					</form>
 				</div>
 			</div>

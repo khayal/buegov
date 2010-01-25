@@ -55,12 +55,11 @@ div.mensaje_aviso
 	{
 		float:left;
 		width:738px;
-		padding:0 10px;
+		padding:20px 10px 0;
 	}
 	
 	#head a
 	{
-
 	}
 	#sending
 	{
@@ -90,6 +89,7 @@ div.mensaje_aviso
 	{
 		float:left;
 		width:185px;
+		margin-top:20px;
 	}
 	#body_main_0		{ float:left; }
 	#body_main_1		{ float:left; }
