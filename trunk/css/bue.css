@@ -11,12 +11,6 @@ rosa: 			f23b79
 		text-transform:uppercase;
 	}
 	
-	#body_main_head .titulo
-	{
-		font-size: 30px;
-		color: #1b1819;
-	}
-	
 	#buscador_menu
 	{
 		font-size:11px;
@@ -204,7 +198,7 @@ rosa: 			f23b79
 		text-transform: uppercase;
 		padding: 4px 0;
 	}
-	#contenido .descripcion	{	font-size:12px;	}
+	#contenido .descripcion	{	font-size:12px; line-height:18px	}
 	
 	#banner
 	{
@@ -233,12 +227,9 @@ rosa: 			f23b79
 	#banner ul	{ margin:0 auto; padding:0; }
 	#banner ul li	{ padding:0; margin:10px; }
 	
-	#recorridos	{ }
-	#recorridos .guia				{ font-size:12px; font-weight:bold; text-transform:uppercase; color:#f23b79 }
-	#recorridos .titulo_recorrido	{ font-size:40px; margin-top:10px; }
-	#recorridos #buscador
+	#buscador_interior
 	{
-		margin:20px 0;
+		margin:0;
 		overflow: auto;
 		padding: 6px 14px;
 		color:#ffffff;
@@ -252,15 +243,21 @@ rosa: 			f23b79
 		-moz-border-radius-bottomright:3px;
 		-webkit-border-bottom-right-radius:3px;
 	}
-	#recorridos #buscador input
+	#buscador_interior input
 	{
 		width:200px;
 		height:17px;
 		border:none;
 	}
 	
+	#body_main_head	{ margin:10px 0 20px }
+	#solapas		{ margin-bottom:20px }
+	
 	.paginado	{ float:left }
 	.orden		{ float:right }
+	.titulo_seccion		{ font-size:40px; margin-top:10px; color:#1b1819; }
+	.path_seccion		{ font-size:12px; font-weight:bold; text-transform:uppercase; color:#f23b79 }
+	
 	
 	
 	

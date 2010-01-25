@@ -7,7 +7,6 @@ rosa: 			f23b79
 
 	#menu	{		}
 	.titulo_menu		{ margin-bottom:15px; font-weight:bold; text-transform:uppercase; line-height:10px; }
-	.titulo_menu_home	{ margin: -25px 0 5px 0; font-size:40px; }
 
 	/*	ENTORNOS	*/
 	.menu_entornos{margin:0 auto; padding:0; height:30px; width:100%; display:block; background:url('../imagenes/menu_entornos.png') repeat-x;}
@@ -49,24 +48,24 @@ rosa: 			f23b79
 
 	/*	MENU INTERIOR	*/
 	.menuitem {margin:0 auto; padding:0; }
-	.menuitem li{padding:0; margin:0; list-style:none;}
-	.menuitem li a{color:#1b1819; text-decoration:none; font-size:11px; font-weight:bold; cursor:pointer; }
+	.menuitem li{padding:0; margin:0; margin-top:6px; list-style:none;}
+	.menuitem li a{color:#1b1819; text-decoration:none; font-size:12px; font-weight:bold; cursor:pointer; }
 	.menuitem li a span{padding:0;}
 	.menuitem li a:hover{color:#f23b79;}
 	.menuitem li a:hover span{}
-	.menuitem li a.active, .menuitem li a.active:hover{font-size:11px; font-weight:bold; color:#f23b79;}
+	.menuitem li a.active, .menuitem li a.active:hover{font-size:12px; font-weight:bold; color:#f23b79;}
 	.menuitem li a.active span, .menuitem li a.active:hover span{}
 	.menuitem ul {margin:0 auto; padding:0; }
-	.menuitem ul li{padding:0; margin:0; list-style:none;}
-	.menuitem ul li a{color:#666666; text-decoration:none; font-size:11px; font-weight:normal; cursor:pointer; }
+	.menuitem ul li{padding:0; margin-top:6px; list-style:none;}
+	.menuitem ul li a{color:#666666; text-decoration:none; font-size:12px; font-weight:normal; cursor:pointer; }
 	.menuitem ul li a span{padding:0;}
 	.menuitem ul li a:hover{color:#f23b79;}
 	.menuitem ul li a:hover span{}
-	.menuitem ul li a.active, .menuitem li a.active:hover{font-size:11px; font-weight:bold; color:#f23b79;}
+	.menuitem ul li a.active, .menuitem li a.active:hover{font-size:12px; font-weight:bold; color:#f23b79;}
 	.menuitem ul li a.active span, .menuitem li a.active:hover span{}
 
 	/*	MENU HOME	*/
-	.menuhome {margin:0 auto; padding:0; }
+	.menuhome {margin-top:10px; padding:0; }
 	.menuhome li{padding:0; margin:6px 9px 10px 0; width:175px; list-style:none; float:left;}
 	.menuhome li a{color:#1b1819; text-decoration:none; font-size:11px; font-weight:normal; cursor:pointer; }
 	.menuhome li a span{padding:0;}
@@ -74,5 +73,5 @@ rosa: 			f23b79
 	.menuhome li a:hover span{}
 	.menuhome li a.active, .menuhome li a.active:hover{font-size:11px; font-weight:normal; color:#f23b79;}
 	.menuhome li a.active span, .menuhome li a.active:hover span{}
-	.menuhome li div.titulo	{ padding:10px 1px; font-size:19px; font-weight: bold; }
+	.menuhome li div.titulo	{ padding:15px 1px; font-size:19px; font-weight: bold; }
 

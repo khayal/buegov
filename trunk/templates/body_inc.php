@@ -30,5 +30,5 @@
 		</div>
 	</div>
 	
-	<div class="subcontainer" style="padding-top:30px"><?	$this->show(); ?></div>
+	<div class="subcontainer"><?	$this->show(); ?></div>
 </div>
