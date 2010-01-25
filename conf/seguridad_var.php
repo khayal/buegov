@@ -33,6 +33,10 @@
 	$aMenu[cdMenu] = extractLanguage($aMenu[cdMenu] , $aModule[$cModule]->getLanguage() );
 	$aMenu[ncEntorno] = $ncEntorno;
 	$aMenu[nSeccion] = $nSeccion;
+	if ( $nMenu && $nSeccion ) 
+		$aMenu[cdSeccion] = extractLanguage($aModule[$cModule]->oDatabase->getData("SELECT cdMenu FROM gtMenu WHERE ncMenu = $nSeccion"), $aModule[$cModule]->getLanguage() );;
+	if ( $nMenu && $nOrden ) 
+		$aMenu[dSubseccion] = extractLanguage($aModule[$cModule]->oDatabase->getData("SELECT cdMenu FROM gtMenu WHERE ncMenu = $nMenu"), $aModule[$cModule]->getLanguage() );;
 	
   // Define las constantes del la contrasena
 	define ( 'CLAVE_SAVE_AS_HASH' ,  true);
