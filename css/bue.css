@@ -200,32 +200,59 @@ rosa: 			f23b79
 	}
 	#contenido .descripcion	{	font-size:12px; line-height:18px	}
 	
-	#banner
+	/********** BANNERs **********/
+	
+	#contenido #banner_gris
 	{
-		padding:6px;
-		background:#f4f4f4;
-		-moz-border-radius-topleft:6px;
-		-webkit-border-top-left-radius:6px;
-		-moz-border-radius-topright:6px;
-		-webkit-border-top-right-radius:6px;
-		-moz-border-radius-bottomleft:6px;
-		-webkit-border-bottom-left-radius:6px;
-		-moz-border-radius-bottomright:6px;
-		-webkit-border-bottom-right-radius:6px;
 		margin-bottom:6px;
-		color:#666666;
+		padding:2px;
+		border:1px solid #dadbcb;
 		font-family:sans-serif;
 	}
-	#banner .titulo
+	#contenido #banner_gris .titulo { margin:0;padding:0; }
+	#contenido #banner_gris .contenido
 	{
-		font-weight:normal;
-		text-transform:uppercase;
-		padding:4px 0;
+		margin:0;
+		padding:4px;
+	}
+	#contenido #banner_gris .item
+	{
+		margin-top:4px;
+		border-bottom:1px solid #dadbcb;
 		font-size:9px;
 	}
-	#banner .descripcion	{	font-size:9px;	}
-	#banner ul	{ margin:0 auto; padding:0; }
-	#banner ul li	{ padding:0; margin:10px; }
+	#contenido #banner_gris .cdContenido
+	{
+		font-weight:bold;
+	}
+	#contenido #banner_glosario
+	{
+		margin-bottom:6px;
+		padding:2px;
+		border:1px solid #b8e100;
+		font-family:sans-serif;
+	}
+	#contenido #banner_glosario .titulo { margin:0;padding:0; }
+	#contenido #banner_glosario .contenido
+	{
+		margin:0px;
+		margin-top:-3px;
+		padding:4px;
+		padding-top:0;
+		background:#cce100;
+	}
+	#contenido #banner_glosario .item
+	{
+		padding:6px;
+		border-bottom:1px solid #cce100;
+		font-size:9px;
+		background:#ffffff;
+	}
+	#contenido #banner_glosario .cdContenido
+	{
+		font-weight:bold;
+	}
+	/********** BANNERs **********/
 	
 	#buscador_interior
 	{
