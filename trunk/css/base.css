@@ -99,9 +99,11 @@ div.mensaje_aviso
 	#body_main_pop
 	{
 	}
+	#body_main_head	{ margin-top:10px; }
 	#body_right
 	{
 		float:right;
+		margin-top:10px;
 		width:149px;
 	}
 	#popup

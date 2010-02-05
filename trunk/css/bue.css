@@ -202,47 +202,48 @@ rosa: 			f23b79
 	
 	/********** BANNERs **********/
 	
-	.glosario	.banner		{ margin-bottom:6px; padding:2px; border:1px solid #cce100; font-family:sans-serif; }
+	.glosario	.banner		{ margin-bottom:6px; padding:2px; border:1px solid #cce100; font-family:Georgia, serif; }
 	.glosario	.banner .banner_titulo 		{ margin:0;padding:0; }
 	.glosario	.banner .banner_contenido	{ margin:0px; margin-top:-3px; padding:4px; padding-top:0; background:#cce100; }
-	.glosario	.banner .banner_item		{ padding:6px; border-bottom:1px solid #cce100; font-size:9px; background:#ffffff; }
+	.glosario	.banner .banner_item		{ padding:6px; border-bottom:1px solid #cce100; font-size:10px; background:#ffffff; }
 	.glosario	.banner .banner_cdContenido	{ font-weight:bold; }
 	
-	.agenda		.banner		{ margin-bottom:6px; padding:2px; border:1px solid #c5e2db; font-family:sans-serif; }
+	.agenda		.banner		{ margin-bottom:6px; padding:2px; border:1px solid #c5e2db; font-family:Georgia, serif; }
 	.agenda		.banner .banner_titulo 		{ margin:0;padding:0; }
 	.agenda		.banner .banner_contenido	{ margin:0px; margin-top:-3px; padding:4px; padding-top:0; background:#c5e2db; }
-	.agenda		.banner .banner_item		{ padding:6px; border-bottom:1px solid #c5e2db; font-size:9px; background:#ffffff; }
+	.agenda		.banner .banner_item		{ padding:6px; border-bottom:1px solid #c5e2db; font-size:10px; background:#ffffff; }
 	.agenda		.banner .banner_cdContenido	{ font-weight:bold; }
 	
-	.webs		.banner		{ margin-bottom:6px; padding:2px; border:1px solid #dedde2; font-family:sans-serif; }
+	.webs		.banner		{ margin-bottom:6px; padding:2px; border:1px solid #dedde2; font-family:Georgia, serif; }
 	.webs		.banner .banner_titulo 		{ margin:0;padding:0; }
 	.webs		.banner .banner_contenido	{ margin:0px; margin-top:-3px; padding:4px; padding-top:0; background:#dedde2; }
-	.webs		.banner .banner_item		{ padding:6px; border-bottom:1px solid #dedde2; font-size:9px; background:#ffffff; }
+	.webs		.banner .banner_item		{ padding:6px; border-bottom:1px solid #dedde2; font-size:10px; background:#ffffff; }
 	.webs		.banner .banner_cdContenido	{ font-weight:bold; }
 	
-	.infos		.banner		{ margin-bottom:6px; padding:2px; border:1px solid #dadbcb; font-family:sans-serif; }
+	.infos		.banner		{ margin-bottom:6px; padding:2px; border:1px solid #dadbcb; font-family:Georgia, serif; }
 	.infos		.banner .banner_titulo 		{ margin:0;padding:0; }
-	.infos		.banner .banner_contenido	{ margin:0; padding:4px; }
-	.infos		.banner .banner_item		{ margin-top:4px; border-bottom:1px solid #dadbcb; font-size:9px; }
+	.infos		.banner .banner_contenido	{ margin:0; padding:6px; }
+	.infos		.banner .banner_item		{ padding:4px 0; border-bottom:1px solid #dadbcb; font-size:10px; }
 	.infos		.banner .banner_cdContenido	{ font-weight:bold; }
 	
-	.datos		.banner		{ margin-bottom:6px; padding:2px; border:1px solid #dadbcb; font-family:sans-serif; }
+	.datos		.banner		{ margin-bottom:6px; padding:2px; border:1px solid #dadbcb; font-family:Georgia, serif; }
 	.datos		.banner .banner_titulo 		{ margin:0;padding:0; }
-	.datos		.banner .banner_contenido	{ margin:0; padding:4px; }
-	.datos		.banner .banner_item		{ margin-top:4px; border-bottom:1px solid #dadbcb; font-size:9px; }
+	.datos		.banner .banner_contenido	{ margin:0; padding:6px; }
+	.datos		.banner .banner_item		{ padding:4px 0; border-bottom:1px solid #dadbcb; font-size:10px; }
 	.datos		.banner .banner_cdContenido	{ font-weight:bold; }
 	
-	.expresiones	.banner		{ margin-bottom:6px; padding:2px; border:1px solid #dadbcb; font-family:sans-serif; }
+	.expresiones	.banner		{ margin-bottom:6px; padding:2px; border:1px solid #dadbcb; font-family:Georgia, serif; }
 	.expresiones	.banner .banner_titulo 		{ margin:0;padding:0; }
-	.expresiones	.banner .banner_contenido	{ margin:0; padding:4px; }
-	.expresiones	.banner .banner_item		{ margin-top:4px; border-bottom:1px solid #dadbcb; font-size:9px; }
+	.expresiones	.banner .banner_contenido	{ margin:0; padding:6px; }
+	.expresiones	.banner .banner_item		{ padding:4px 0; border-bottom:1px solid #dadbcb; font-size:10px; }
 	.expresiones	.banner .banner_cdContenido	{ font-weight:bold; }
+	
 	
 	/********** BANNERs **********/
 	
 	#buscador_interior
 	{
-		margin:0;
+		margin:10px 0 0 0;
 		overflow: auto;
 		padding: 6px 14px;
 		color:#ffffff;
@@ -263,8 +264,7 @@ rosa: 			f23b79
 		border:none;
 	}
 	
-	#body_main_head	{ margin:10px 0 20px }
-	#solapas		{ margin-bottom:20px }
+	#solapas		{  }
 	
 	.paginado	{ float:left }
 	.orden		{ float:right }
