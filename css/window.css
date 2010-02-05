@@ -11,6 +11,7 @@ gris nuevo negro:	1b1819
 		height: 100%;
 		left: 0pt;
 		top: 0pt;
+		background:url(../imagenes/back_window.png);
 	}
 	.window
 	{
@@ -69,4 +70,6 @@ gris nuevo negro:	1b1819
 	{
 		float: left;
 		overflow: auto;
+		margin:10px;
+		width:90%;
 	}

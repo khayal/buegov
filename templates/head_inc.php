@@ -45,7 +45,7 @@
 			<div style="float:right">
 				<div style="overflow:auto; height:18px; border:2px solid #bbbbbb">
 					<form>
-					<div style="float:left"><input type="text" name="buscar" onclick="this.value=''" style="border:none; width:100px; padding:3px 0 0 2px; font-family:serif; font-size:10px; color:#6d6d6d; text-transform:uppercase" value="buscar" /></div>
+					<div style="float:left"><input type="text" name="buscar" onclick="this.value=''" style="border:none; width:250px; padding:3px 0 0 2px; font-family:serif; font-size:10px; color:#6d6d6d; text-transform:uppercase" value="buscar" /></div>
 					<div style="float:left"><input type="image" src="imagenes/flecha_buscar.gif" value="buscar" width="18" height="18" style="border:none" alt="buscar" /></div>
 					</form>
 				</div>

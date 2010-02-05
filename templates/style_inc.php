@@ -78,5 +78,9 @@
 	.numerito	{	font-size: 12px; color:<?=$cColorPpal?>	}
 	
 	.fondo_foot	{ overflow:auto; padding:4px 10px; color:#ffffff; background: <?=$cColorPpal?> }
+	
+	#contenido a.a_banner		{ color:#1b1819; font-weight:normal; }
+	#contenido a.a_banner:hover	{ color:<?=$cColorPpal?>; font-weight:normal; }
+
 -->
 </style>
