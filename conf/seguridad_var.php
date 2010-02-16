@@ -26,13 +26,10 @@
 	$aModule[$cModule]->addStyleSheet( "bue.css" );
 	$aModule[$cModule]->setTemplateHead( $oModBase->getTemplateHead() );
 	
-	global $aMenu;
 	$ncMenu = getParam(ncMenu, START_MENU);
-	$aMenu = $aModule[$cModule]->oDatabase->getArray("SELECT ncMenu, cdMenu, cCamino, nOrden FROM gtMenu WHERE ncMenu = $ncMenu");
-    list($nSitio, $ncEntorno, $nSeccion, $nMenu, $nOrden) = explode('.', $aMenu[cCamino] . $ncMenu );
-	$aMenu[cdMenu] = extractLanguage($aMenu[cdMenu] , $aModule[$cModule]->getLanguage() );
-	$aMenu[ncEntorno] = $ncEntorno;
-	$aMenu[nSeccion] = $nSeccion;
+	global $aMenu ;
+	require_once( PATH_MODULES . '/portal/componentes_lib.php');
+	$aMenu = traer_menu( $aModule[$cModule]->oDatabase, $aModule[$cModule]->getLanguage() , $ncMenu) ;
 	if ( $nMenu && $nSeccion ) 
 		$aMenu[cdSeccion] = extractLanguage($aModule[$cModule]->oDatabase->getData("SELECT cdMenu FROM gtMenu WHERE ncMenu = $nSeccion"), $aModule[$cModule]->getLanguage() );;
 	if ( $nMenu && $nOrden ) 
