@@ -238,6 +238,12 @@ rosa: 			f23b79
 	.expresiones	.banner .banner_item		{ padding:4px 0; border-bottom:1px solid #dadbcb; font-size:10px; }
 	.expresiones	.banner .banner_cdContenido	{ font-weight:bold; }
 	
+	.telefonos	.banner		{ margin-bottom:6px; padding:2px; border:1px solid #dadbcb; font-family:Georgia, serif; }
+	.telefonos	.banner .banner_titulo 		{ margin:0;padding:0; }
+	.telefonos	.banner .banner_contenido	{ margin:0; padding:6px; }
+	.telefonos	.banner .banner_item		{ padding:4px 0; border-bottom:1px solid #dadbcb; font-size:10px; }
+	.telefonos	.banner .banner_cdContenido	{ font-weight:bold; }
+	
 	
 	/********** BANNERs **********/
 	
