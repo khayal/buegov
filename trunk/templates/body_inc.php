@@ -13,7 +13,7 @@
 <div id="body">
 	<div class="barra_entorno">
 		<div style="padding:0 10px">
-			<div><h1><a href="?ncMenu=<?=$aMenu[ncEntorno]?>">Buenos Aires</a></h1></div>
+			<div><h1><a href="?">Buenos Aires</a></h1></div>
 			<div><h2>turismo</h2></div>
 			<div><h3><?=mostrar_termino('LBL_Titulo_Portal')?></h3></div>
 			<div class="fecha">
@@ -30,5 +30,5 @@
 		</div>
 	</div>
 	
-	<div class="subcontainer"><?	$this->show(); ?></div>
+	<div class="subcontainer"><? $this->show() ?></div>
 </div>
