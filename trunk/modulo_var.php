@@ -1,13 +1,13 @@
 <?
 	// Define Constantes del Modulo
-	//define( 'PATH_ROOT' , __DIR__ .'/' );
-	//define( 'PATH_MODULES' , __DIR__ . '/../desa/modules/' );
-	define( 'PATH_ROOT' , '/home/nh/htdocs/bue/' );    
-	define( 'PATH_MODULES' , '/home/nh/htdocs/desa/modules/' );
+	define( 'PATH_ROOT' , __DIR__ .'/' );
+	define( 'PATH_MODULES' , __DIR__ . '/../desa/modules/' );
+	//define( 'PATH_ROOT' , '/home/nh/htdocs/bue/' );    
+	//define( 'PATH_MODULES' , '/home/nh/htdocs/desa/modules/' );
 	
     define( 'URL_ROOT'      , '/bue/' );
     define( 'URL_MODULES'      , '/desa/modules/' );
-    define( 'URL_IMAGES'    ,  URL_MODULES . URL_ROOT . '/imagenes' );
+    define( 'URL_IMAGES'    ,  URL_MODULES  . 'base/images' );
     
     define( 'URL_MAP_IMAGES', '/mibaq/imagenes');
     define( 'START_MODULE'  , 'portal' );
