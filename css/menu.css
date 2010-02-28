@@ -74,4 +74,14 @@ rosa: 			f23b79
 	.menuhome li a.active, .menuhome li a.active:hover{font-size:11px; font-weight:normal; color:#f23b79;}
 	.menuhome li a.active span, .menuhome li a.active:hover span{}
 	.menuhome li div.titulo	{ padding:15px 1px; font-size:19px; font-weight: bold; }
+	
+	.menuhomebotones {margin-top:10px; padding:0; }
+	.menuhomebotones li{padding:0; margin:6px 9px 10px 0; width:175px; list-style:none; float:left;}
+	.menuhomebotones li a{text-decoration:none; font-size:12px; font-weight:normal; cursor:pointer; }
+	.menuhomebotones li a span{padding:0;}
+	.menuhomebotones li a:hover{}
+	.menuhomebotones li a:hover span{}
+	.menuhomebotones li a.active, .menuhomebotones li a.active:hover{font-size:12px; font-weight:normal;}
+	.menuhomebotones li a.active span, .menuhomebotones li a.active:hover span{}
+	.menuhomebotones li div.titulo	{ padding-top:6px; font-size:17px; font-weight: bold; color:#999999; }
 

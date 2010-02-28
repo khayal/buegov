@@ -1,13 +1,13 @@
 <?
 
-	$aColores = array(
+	$aColorEntorno = array(
 		2 => '#4dc1b7',	//	turistas
 		3 => '#7763ac',	//	profesionales
 		4 => '#cbdb2a',	//	colaboradores
-		5 => '#ff4e53'		//	prensa
+		5 => '#ff4e53'	//	prensa
 		);
 	global $aMenu;
-	$cColorPpal = $aColores[$aMenu[ncEntorno]];
+	$cColorPpal = $aColorEntorno[$aMenu[ncEntorno]];
 ?>
 <style type='text/css'>
 <!--
@@ -81,6 +81,8 @@
 	
 	#contenido a.a_banner		{ color:#1b1819; font-weight:normal; }
 	#contenido a.a_banner:hover	{ color:<?=$cColorPpal?>; font-weight:normal; }
+	
+	.menuhomebotones a { color:<?=$cColorPpal?> }
 
 -->
 </style>
