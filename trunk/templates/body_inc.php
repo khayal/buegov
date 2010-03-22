@@ -8,6 +8,7 @@
 	$oHoraHoy->setToday();
 	
 	$lang = getParam('lang', 'es');
+	//$cUrlEs = getParam('lang', 'es');
 ?>
 
 <div id="body">
