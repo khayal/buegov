@@ -7,7 +7,7 @@
 ?>
 <div id="foot">
 	<div class="barra_entorno">
-		<div class="foot_in_entorno">© 2004-2009<br/><?=mostrar_termino('LBL_SitioOficial')?></div>
+		<div class="foot_in_entorno">© 2004-2010<br/><?=mostrar_termino('LBL_SitioOficial')?></div>
 	</div>
 	<div class="subcontainer">
 		<div class="fondo_foot">
@@ -20,7 +20,7 @@
 					<a href="">Uso de la información</a> | 
 					<a href="">Créditos</a> | 
 					<a href="">Autoridades</a> |
-					<a href="">Estadísticas</a></td>
+					<a href="">Estadísticas</a>
 				</div>
 			</div>
 		</div>

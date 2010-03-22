@@ -11,6 +11,51 @@ rosa: 			f23b79
 		text-transform:uppercase;
 	}
 	
+	.home_titulo
+	{
+		margin-top:8px;
+		width:600px;
+		font-size:36px;
+		font-weight:bold;
+		text-transform:lowercase;
+	}
+	.home_copete
+	{
+		width:600px;
+		font-size:36px;
+		text-transform:lowercase;
+	}
+	
+	.descripcion_home
+	{
+		position:absolute;
+		bottom:0;
+		left:0;
+		width:300px;
+		height:120px;
+		line-height:50px;
+		padding:10px;
+		color:#ffffff;
+		font-size:60px;
+		font-weight:bold;
+	}
+	.descripcion_producto
+	{
+		position:absolute;
+		top:30px;
+		left:30px;
+		background:#ffffff;
+		width:300px;
+		line-height:30px;
+		padding:10px;
+		color:#111111;
+		font-size:30px;
+		filter:alpha(opacity=70);
+		-moz-opacity:0.7;
+		-khtml-opacity: 0.7;
+		opacity: 0.7;
+	}
+	
 	#buscador_menu
 	{
 		font-size:11px;
@@ -277,7 +322,8 @@ rosa: 			f23b79
 	.titulo_seccion		{ font-size:40px; margin-top:10px; color:#1b1819; }
 	.path_seccion		{ font-size:12px; font-weight:bold; text-transform:uppercase; color:#f23b79 }
 	
-	
+	#link 			{ margin-bottom:17px; padding:3px 0 0 5px; width:134px; height:17px; background:url(../imagenes/fondo_link.gif); }
+	#link a			{ font-size:11px; font-weight:bold; color:#ffffff; }
 	
 	
 	
