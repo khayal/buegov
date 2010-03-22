@@ -11,7 +11,7 @@
     
     define( 'URL_MAP_IMAGES', '/mibaq/imagenes');
     define( 'START_MODULE'  , 'portal' );
-    define( 'START_ACTION'  , 'home' );
+    define( 'START_ACTION'  , 'componentes' );
     define( 'START_MENU'  , 2 );
 	$aMenu = array( 'ncMenu' => START_MENU );
 	$aLanguage = array (
