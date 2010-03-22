@@ -5,7 +5,7 @@ rosa: 			f23b79
 
 */
 
-	#menu	{		}
+	#menu	{ margin-left:4px; }
 	.titulo_menu		{ margin-bottom:15px; font-weight:bold; text-transform:uppercase; line-height:10px; }
 
 	/*	ENTORNOS	*/
@@ -83,5 +83,5 @@ rosa: 			f23b79
 	.menuhomebotones li a:hover span{}
 	.menuhomebotones li a.active, .menuhomebotones li a.active:hover{font-size:12px; font-weight:normal;}
 	.menuhomebotones li a.active span, .menuhomebotones li a.active:hover span{}
-	.menuhomebotones li div.titulo	{ padding-top:6px; font-size:17px; font-weight: bold; color:#999999; }
-
+	.menuhomebotones li div.icono	{ float:left; }
+	.menuhomebotones li div.texto	{ float:left; padding:2px 0 0 2px; font-size:15px; font-weight: bold; color:#aaaaaa; }

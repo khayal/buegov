@@ -13,6 +13,16 @@
 <!--
 	a:hover    {color:<?=$cColorPpal?>}
 	
+	.home_titulo_color
+	{
+		margin-top:8px;
+		width:600px;
+		font-size:36px;
+		font-weight:bold;
+		text-transform:lowercase;
+		color:<?=$cColorPpal?>;
+	}
+	
 	.boton_favoritos
 	{
 		margin: 10px 0;
@@ -30,7 +40,7 @@
 		-webkit-border-bottom-right-radius: 2px;
 		border:1px solid <?=$cColorPpal?>;
 	}
-	.subtitulo	{ margin-top:10px; font-weight:bold; text-transform:uppercase; color:<?=$cColorPpal?>; }
+	#link a:hover	{ color:<?=$cColorPpal?>; }
 	
 	#container
 	{
@@ -83,6 +93,7 @@
 	#contenido a.a_banner:hover	{ color:<?=$cColorPpal?>; font-weight:normal; }
 	
 	.menuhomebotones a { color:<?=$cColorPpal?> }
+	.subtitulobottomhome { font-size:12px; color:<?=$cColorPpal?> }
 
 -->
 </style>
