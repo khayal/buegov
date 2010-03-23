@@ -8,7 +8,21 @@
 	$oHoraHoy->setToday();
 	
 	$lang = getParam('lang', 'es');
+<<<<<<< .mine
+	  $cParam = $_SERVER['QUERY_STRING'];
+	  if ( $cParam )
+	  {
+		$cParam = eregi_replace ("lang=[^&]*&" , "" , $cParam .'&' );
+		if ($cParam && substr($cParam, -1) != '&' ) $cParam .= '&';
+	  }
+	  $cLinkEs = $PHP_SELF . '?'.  $cParam . 'lang=es' ;
+	  $cLinkEn = $PHP_SELF . '?'.  $cParam . 'lang=en' ; 
+	  $cLinkPt = $PHP_SELF . '?'.  $cParam . 'lang=pt' ; 
+	
 	//$cUrlEs = getParam('lang', 'es');
+=======
+	//$cUrlEs = getParam('lang', 'es');
+>>>>>>> .r72
 ?>
 
 <div id="body">
@@ -23,9 +37,9 @@
 			</div>
 			<div>
 				<ul class="menu_idiomas">
-					<li><a href="?lang=es" <?if($lang=='es') echo "class='active'"?>><span>español</span></a></li>
-					<li><a href="?lang=en" <?if($lang=='en') echo "class='active'"?>><span>english</span></a></li>
-					<li><a href="?lang=pt" <?if($lang=='pt') echo "class='active'"?>><span>portugues</span></a></li>
+					<li><a href="<?=$cLinkEs?>" <?if($lang=='es') echo "class='active'"?>><span>español</span></a></li>
+					<li><a href="<?=$cLinkEn?>" <?if($lang=='en') echo "class='active'"?>><span>english</span></a></li>
+					<li><a href="<?=$cLinkPt?>" <?if($lang=='pt') echo "class='active'"?>><span>portugues</span></a></li>
 				</ul>
 			</div>
 		</div>
