@@ -8,7 +8,6 @@
 	$oHoraHoy->setToday();
 	
 	$lang = getParam('lang', 'es');
-<<<<<<< .mine
 	  $cParam = $_SERVER['QUERY_STRING'];
 	  if ( $cParam )
 	  {
@@ -20,9 +19,6 @@
 	  $cLinkPt = $PHP_SELF . '?'.  $cParam . 'lang=pt' ; 
 	
 	//$cUrlEs = getParam('lang', 'es');
-=======
-	//$cUrlEs = getParam('lang', 'es');
->>>>>>> .r72
 ?>
 
 <div id="body">
