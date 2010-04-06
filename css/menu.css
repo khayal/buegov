@@ -6,7 +6,9 @@ rosa: 			f23b79
 */
 
 	#menu	{ margin-left:4px; }
+	#menu select	{ margin-top:2px; width:150px; font-size:10px; color:#333333; }
 	.titulo_menu		{ margin-bottom:15px; font-weight:bold; text-transform:uppercase; line-height:10px; }
+
 
 	/*	ENTORNOS	*/
 	.menu_entornos{margin:0 auto; padding:0; height:30px; width:100%; display:block; background:url('../imagenes/menu_entornos.png') repeat-x;}

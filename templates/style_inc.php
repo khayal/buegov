@@ -94,6 +94,8 @@
 	
 	.menuhomebotones a { color:<?=$cColorPpal?> }
 	.subtitulobottomhome { font-size:12px; color:<?=$cColorPpal?> }
+	
+	.subtitulo	{ margin-top:10px; font-weight:bold; text-transform:uppercase; color:<?=$cColorPpal?> }
 
 -->
 </style>

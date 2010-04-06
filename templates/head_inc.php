@@ -44,9 +44,11 @@
 			</div>
 			<div style="float:right">
 				<div style="overflow: hidden; height:18px; border:2px solid #bbbbbb">
-					<form method="post" action="?mo=portal&ac=busqueda" id="frmBuscar" name="frmBuscar">
+					<form method="get" autocomplete="off" onsubmit="this.submit();return false;"  id="frmBuscar" name="frmBuscar">
+					<input type="hidden" name="mo"  value="portal" />
+					<input type="hidden" name="ac"  value="busqueda" />
 					<div style="float:left"><input type="text" name="buscar" onclick="this.value=''" style="border:none; width:250px; padding:3px 0 0 2px; font-family:serif; font-size:10px; color:#6d6d6d; text-transform:uppercase" value="buscar" /></div>
-					<div style="float:left"><a href="#" onclick="frmBuscar.submit(); return false;"<img src="imagenes/flecha_buscar.gif" value="buscar" width="18" height="18" style="border:none" alt="buscar" /></a></div>
+					<div style="float:left"><input type='image' img src="imagenes/flecha_buscar.gif" value="buscar" width="18" height="18" style="border:none" alt="buscar" /></input></div>
 					</form>
 				</div>
 			</div>
