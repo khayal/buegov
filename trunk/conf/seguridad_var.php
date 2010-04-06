@@ -26,10 +26,11 @@
 	$aModule[$cModule]->addStyleSheet( "bue.css" );
 	$aModule[$cModule]->setTemplateHead( $oModBase->getTemplateHead() );
 	
+	
 	$ncMenu = getParam(ncMenu, START_MENU);
 	global $aMenu ;
 	require_once( PATH_MODULES . '/portal/componentes_lib.php');
-	$aMenu = traer_menu( $aModule[$cModule]->oDatabase, $aModule[$cModule]->getLanguage() , $ncMenu) ;
+	$aMenu = traer_menu( $aModule[$cModule]->oDatabase, $oModBase->getLanguage() , $ncMenu) ;
 	if ( $nMenu && $nSeccion ) 
 		$aMenu[cdSeccion] = extractLanguage($aModule[$cModule]->oDatabase->getData("SELECT cdMenu FROM gtMenu WHERE ncMenu = $nSeccion"), $aModule[$cModule]->getLanguage() );;
 	if ( $nMenu && $nOrden ) 

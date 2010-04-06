@@ -17,7 +17,7 @@
 	define( 'PATH_FONT' , PATH_MODULES . 'base/componentes/' );
 	define ( 'FONT_FILE', PATH_MODULES . 'base/componentes/georgiab.ttf' );
 	
-	define ( 'USER_SESSION_VARIABLE_NAME', 'user_session_data_bsas' );
+	define ( 'USER_SESSION_VARIABLE_NAME', 'user_session_data_bsas'  . ( MODO_ADMIN === true ? '_admin':'_site')  );
 	define ( 'ENTORNO_METADATA', true);
 	define ( 'JAVASCRIPT_COMPRESSED', false);
 	define ( 'EDITOR', false );

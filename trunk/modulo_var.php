@@ -1,17 +1,17 @@
 <?
 	// Define Constantes del Modulo
-	//define( 'PATH_ROOT' , __DIR__ .'/' );
-	//define( 'PATH_MODULES' , __DIR__ . '/../desa/modules/' );
-	define( 'PATH_ROOT' , '/home/nh/htdocs/bue/' );    
-	define( 'PATH_MODULES' , '/home/nh/htdocs/desa/modules/' );
+	define( 'PATH_ROOT' , __DIR__ .'/' );
+	define( 'PATH_MODULES' , __DIR__ . '/../desa/modules/' );
+	//define( 'PATH_ROOT' , '/home/nh/htdocs/bue/' );    
+	//define( 'PATH_MODULES' , '/home/nh/htdocs/desa/modules/' );
 	
     define( 'URL_ROOT'      , '/bue/' );
     define( 'URL_MODULES'      , '/desa/modules/' );
     define( 'URL_IMAGES'    ,  URL_MODULES  . 'base/images' );
     
     define( 'URL_MAP_IMAGES', '/mibaq/imagenes');
-    define( 'START_MODULE'  , 'portal' );
-    define( 'START_ACTION'  , 'componentes' );
+    //define( 'START_MODULE'  , 'portal' );
+    //define( 'START_ACTION'  , 'componentes' );
     define( 'START_MENU'  , 2 );
 	$aMenu = array( 'ncMenu' => START_MENU );
 	$aLanguage = array (
@@ -19,7 +19,7 @@
                  array ('en', 'Ingles'   , 'lang_en.gif'),
                  array ('pt', 'Portugues', 'lang_pt.gif'),
                        );
-	
+	global $aInstallModules;
 	// Abre los objetos de los modulos
 	$aInstallModules['base'] = array (  'nModule' => 1, 'cPathModule' => PATH_MODULES . 'base',
                                       'cUrl' => URL_MODULES  .'base' ,
@@ -62,5 +62,4 @@
 	$aInstallModules['recorridos']    = array (   'nModule' => 12,'cPathModule' => PATH_MODULES . 'recorridos',
 											'cUrl' => URL_ROOT .'/modules/recorridos'
 										);
-
 ?>
