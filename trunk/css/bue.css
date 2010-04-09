@@ -11,34 +11,23 @@ rosa: 			f23b79
 		text-transform:uppercase;
 	}
 	
-	.home_titulo
-	{
-		margin-top:8px;
-		width:600px;
-		font-size:36px;
-		font-weight:bold;
-		text-transform:lowercase;
-	}
-	.home_copete
-	{
-		width:600px;
-		font-size:36px;
-		text-transform:lowercase;
-	}
+	#home_banner				{ position:relative; margin-top:-20px; width:738px; font-size:36px; font-weight:bold; text-transform:lowercase; }
+	#home_banner .home_copete	{ position:absolute; bottom:10px; left:0; height:120px; line-height:50px; padding:10px; color:#ffffff; font-size:60px; font-weight:bold; }
+	#home_banner .home_flechas	{ position:absolute; overflow:hidden; bottom:20px; right:30px; width:90px; height:50px; font-size:14px; }
 	
-	.descripcion_home
-	{
-		position:absolute;
-		bottom:0;
-		left:0;
-		width:300px;
-		height:120px;
-		line-height:50px;
-		padding:10px;
-		color:#ffffff;
-		font-size:60px;
-		font-weight:bold;
-	}
+	#home_buscador, #home_link
+	{ float:left; width:175px; margin:6px 9px 10px 0; }
+	#home_buscador .titulo, #home_link .titulo
+	{ padding:10px 0 0; font-size:18px; font-weight:bold; color:#333333; }
+	#home_buscador .bajada, #home_link .bajada
+	{ padding:0; font-size:18px; text-transform:lowercase; color:#444444; }
+	#home_buscador .link, #home_link .link
+	{ text-transform:lowercase; }
+	#home_link .titulo_abajo	{ padding:10px 0 0; font-size:18px; font-weight:bold; color:#ababab; }
+	#home_link .link_abajo	 a	{ text-transform:lowercase; font-size:14px; }
+	#home_link .link_abajo	 a:hover	{ color:#666666; }
+	#home_buscador input.text	{ width:130px; height:14px; font-size:11px; border:1px solid #333333; }
+	
 	.descripcion_producto
 	{
 		position:absolute;
@@ -123,7 +112,11 @@ rosa: 			f23b79
 		height: 12px;
 		font-size: 10px;
 	}
-	#filtros input .boton
+	#filtros input.check
+	{
+		width: 10px;
+	}
+	#filtros input.boton
 	{
 		font-size: 10px;
 		font-weight: bold;
