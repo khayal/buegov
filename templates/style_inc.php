@@ -22,6 +22,7 @@
 		text-transform:lowercase;
 		color:<?=$cColorPpal?>;
 	}
+	#home_link .link_abajo a		{ color:<?=$cColorPpal?>; }
 	
 	.boton_favoritos
 	{

@@ -91,6 +91,7 @@ div.mensaje_aviso
 		width:185px;
 		margin-top:20px;
 	}
+	#body_main_		{ float:left; }
 	#body_main_0		{ float:left; }
 	#body_main_1		{ float:left; }
 	#body_main_2		{ float:left; }
