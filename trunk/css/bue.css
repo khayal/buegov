@@ -252,11 +252,11 @@ rosa: 			f23b79
 	.agenda		.banner .banner_item		{ padding:6px; border-bottom:1px solid #c5e2db; font-size:10px; background:#ffffff; }
 	.agenda		.banner .banner_cdContenido	{ font-weight:bold; }
 	
-	.webs		.banner		{ margin-bottom:6px; padding:2px; border:1px solid #dedde2; font-family:Georgia, serif; }
-	.webs		.banner .banner_titulo 		{ margin:0;padding:0; }
-	.webs		.banner .banner_contenido	{ margin:0px; margin-top:-3px; padding:4px; padding-top:0; background:#dedde2; }
-	.webs		.banner .banner_item		{ padding:6px; border-bottom:1px solid #dedde2; font-size:10px; background:#ffffff; }
-	.webs		.banner .banner_cdContenido	{ font-weight:bold; }
+	.www		.banner		{ margin-bottom:6px; padding:2px; border:1px solid #dedde2; font-family:Georgia, serif; }
+	.www		.banner .banner_titulo 		{ margin:0;padding:0; }
+	.www		.banner .banner_contenido	{ margin:0px; margin-top:-3px; padding:4px; padding-top:0; background:#dedde2; }
+	.www		.banner .banner_item		{ padding:6px; border-bottom:1px solid #dedde2; font-size:10px; background:#ffffff; }
+	.www		.banner .banner_cdContenido	{ font-weight:bold; }
 	
 	.infos		.banner		{ margin-bottom:6px; padding:2px; border:1px solid #dadbcb; font-family:Georgia, serif; }
 	.infos		.banner .banner_titulo 		{ margin:0;padding:0; }
@@ -281,6 +281,18 @@ rosa: 			f23b79
 	.telefonos	.banner .banner_contenido	{ margin:0; padding:6px; }
 	.telefonos	.banner .banner_item		{ padding:4px 0; border-bottom:1px solid #dadbcb; font-size:10px; }
 	.telefonos	.banner .banner_cdContenido	{ font-weight:bold; }
+	
+	.fotos	.banner		{ margin-bottom:6px; padding:2px; border:1px solid #dadbcb; font-family:Georgia, serif; }
+	.fotos	.banner .banner_titulo 		{ margin:0;padding:0; }
+	.fotos	.banner .banner_contenido	{ margin:0; padding:6px; }
+	.fotos	.banner .banner_item		{ padding:4px 0; border-bottom:1px solid #dadbcb; font-size:10px; }
+	.fotos	.banner .banner_cdContenido	{ font-weight:bold; }
+	
+	.fotorreportaje	.banner		{ margin-bottom:6px; padding:2px; border:1px solid #dadbcb; font-family:Georgia, serif; }
+	.fotorreportaje	.banner .banner_titulo 		{ margin:0;padding:0; }
+	.fotorreportaje	.banner .banner_contenido	{ margin:0; padding:6px; }
+	.fotorreportaje	.banner .banner_item		{ padding:4px 0; border-bottom:1px solid #dadbcb; font-size:10px; }
+	.fotorreportaje	.banner .banner_cdContenido	{ font-weight:bold; }
 	
 	
 	/********** BANNERs **********/
